@@ -1,0 +1,14 @@
+books:
+  image: debian:stretch
+  before_script:
+    - apt-get update && apt-get install -y wget
+    - wget https://github.com/Keats/gutenberg/releases/download/v0.3.3/gutenberg-v0.3.3-x86_64-unknown-linux-gnu.tar.gz -O /gutenberg.tar.gz
+    - tar xf /gutenberg.tar.gz
+  script:
+    - /gutenberg build
+  artifacts:
+    paths:
+      - public/
+    expire_in: 1 month
+  only:
+    - master

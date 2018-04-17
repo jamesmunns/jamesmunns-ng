@@ -1,3 +1,6 @@
+# NOTE: This was built with
+# `gutenberg 0.3.3`
+
 # The URL the site will be built for
 base_url = "https://munns.de"
 
