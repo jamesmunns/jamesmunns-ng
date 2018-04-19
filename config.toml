@@ -21,6 +21,8 @@ build_search_index = true
 
 theme = "hyde"
 
+generate_rss = true
+
 [extra]
 # Put all your custom variables here
 hyde_links = [

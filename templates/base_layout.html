@@ -1,3 +1,4 @@
+<!--base_layout-->
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -41,7 +42,10 @@
                         <!-- Manual navigation content -->
                         <hr>
                         <li><a href="{{ get_url(path="blog") }}">Blog</a></li>
+                        <li><a href="{{ get_url(path="contact") }}">Contact</a></li>
                         <hr>
+
+
 
                         <!-- External link content -->
                         {% for link in config.extra.hyde_links %}
@@ -55,6 +59,7 @@
 
         <div class="content container">
             {% block content %}
+            <!--
                 <div class="posts">
                     {% for page in section.pages %}
                       <div class="post">
@@ -68,6 +73,7 @@
                       </div>
                     {% endfor %}
                 </div>
+            -->
             {% endblock content %}
         </div>
 

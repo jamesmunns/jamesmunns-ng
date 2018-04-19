@@ -1,7 +1,7 @@
 +++
-title = "landing page"
+title = "Landing Page"
 
-description = ""
+description = "Its a page"
 
 # Whether to sort by "date", "order", "weight" or "none". More on that below
 sort_by = "none"
@@ -11,7 +11,7 @@ sort_by = "none"
 weight = 0
 
 # Template to use to render this section page
-template = "index2.html"
+template = "index.html"
 
 # How many pages to be displayed per paginated page.
 # No pagination will happen if this isn't set or if the value is 0
@@ -43,4 +43,5 @@ render = true
 # Your own data
 [extra]
 +++
-# Hello, World!
+
+# Hey, I'm James.

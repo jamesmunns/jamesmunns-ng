@@ -11,7 +11,7 @@ sort_by = "date"
 weight = 0
 
 # Template to use to render this section page
-template = "index2.html"
+template = "blog_index.html"
 
 # How many pages to be displayed per paginated page.
 # No pagination will happen if this isn't set or if the value is 0

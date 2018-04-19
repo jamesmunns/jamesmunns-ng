@@ -32,12 +32,12 @@ order = 0
 # The weight as defined in the Section page
 weight = 0
 
-# Use aliases if you are moving content but want to redirect previous URLs to the 
+# Use aliases if you are moving content but want to redirect previous URLs to the
 # current one. This takes an array of path, not URLs.
 aliases = []
 
 # Whether the page should be in the search index. This is only used if
-# `build_search_index` is set to true in the config and the parent section 
+# `build_search_index` is set to true in the config and the parent section
 # hasn't set `in_search_index` to false in its front-matter
 in_search_index = true
 
@@ -52,6 +52,8 @@ At the recent 2018 Rust All Hands, I met up with Katharina [@spacekookie], who w
 
 [@spacekookie]: https://github.com/spacekookie
 [open source project]: https://github.com/qaul/qaul.net
+
+<!-- more -->
 
 > If you just want to see what the results were without more details, you can skip ahead to the [TL;DR](#tldr) at the end!
 >
