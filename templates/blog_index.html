@@ -12,6 +12,9 @@
             {{ page.summary | safe }}
           </div>
         {% endfor %}
+    {% if paginator.previous %}<a href="{{ paginator.previous }}"><b>< < Back</b>{% endif %}
+    {% if paginator.next and paginator.previous %}|{% endif %}
+    {% if paginator.next %}<a href="{{ paginator.next }}"><b>Next > ></b>{% endif %}
     </div>
 {% endblock content %}
 

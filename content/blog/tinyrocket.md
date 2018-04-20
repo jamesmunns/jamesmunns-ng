@@ -2,11 +2,13 @@
 title = "Tiny Rocket"
 date = 2018-02-18T12:00:00Z
 draft = false
-# tags = ["tag1", "tag2"]
-# category = "rust"
 aliases = ["update/2018/04/01/tinyrocket.html"]
 in_search_index = true
-template = "page2.html"
+template = "blog_post.html"
+
+# TODO
+# tags = []
+# category = ""
 +++
 
 At the recent 2018 Rust All Hands, I met up with Katharina [@spacekookie], who works on an [open source project] that creates software for Embedded Linux Devices. She had talked with the other engineers on the project about including some Rust components, however with their limited flash storage space (8MB for the whole firmware, including operating system and all other software), she was worried that the Rust binaries wouldn't fit. The current webserver component for their project was measured in the 100's of KB, while the Rust binary she produced was already multiple MBs, even with a `--release` build!

@@ -1,4 +1,4 @@
-{% extends "index2.html" %}
+{% extends "base_layout.html" %}
 
 {% block content %}
 <div class="post">
@@ -6,5 +6,10 @@
   <span class="post-date">{{ page.date | date(format="%Y-%m-%d") }}</span>
   {{ page.content | safe }}
 </div>
+
+    {% if page.previous %}<a href="{{ page.previous.permalink }}">Previous article{% endif %}
+    |
+    {% if page.next %}<a href="{{ page.next.permalink }}">Next article{% endif %}
+
 {% endblock content %}
 

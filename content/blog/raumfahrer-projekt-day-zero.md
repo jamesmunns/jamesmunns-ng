@@ -6,12 +6,14 @@ draft = false
 # category = "rust"
 aliases = []
 in_search_index = true
-template = "page2.html"
+template = "blog_post.html"
 +++
 
 Phew, it's been a busy six months or so since I've last posted. So busy, in fact, that I had two weeks of vacation left over from last year that I was able to roll over to this year, but it had to be used by the end of Q1.
 
 Tomorrow (2018-02-19) kicks off my first day of vacation, and I wanted to share what I'm planning on doing for the next two weeks - something I'm calling **The Raumfahrer Projekt**.
+
+<!-- more -->
 
 # Okay, what is it?
 
