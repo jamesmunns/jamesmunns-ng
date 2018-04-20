@@ -1,5 +1,9 @@
 {% extends "base_layout.html" %}
 
+{% block title %}
+{{ page.title }}
+{% endblock title %}
+
 {% block content %}
 <div class="page">
   {{ page.content | safe }}
