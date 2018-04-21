@@ -2,7 +2,7 @@
 # `gutenberg 0.3.3`
 
 # The URL the site will be built for
-base_url = "https://munns.de"
+base_url = "https://jamesmunns.com"
 
 title = "James Munns"
 description = """
@@ -26,6 +26,6 @@ generate_rss = true
 [extra]
 # Put all your custom variables here
 hyde_links = [
-    {url = "https://www.linkedin.com/in/james-munns-8a42b429/", name = "LinkedIn"},
 ]
 hyde_theme = "theme-base-1f"
+analytics_id = "UA-81709011-1"

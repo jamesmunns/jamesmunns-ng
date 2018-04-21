@@ -1,10 +1,10 @@
 +++
 title = "Raumfahrer Projekt - Day Zero"
-date = 2018-02-18T12:00:00Z
+date = 2018-02-18
 draft = false
 # tags = ["tag1", "tag2"]
 # category = "rust"
-aliases = []
+aliases = ["update/2018/02/18/raumfahrer-projekt-day-zero.html"]
 in_search_index = true
 template = "blog_post.html"
 +++

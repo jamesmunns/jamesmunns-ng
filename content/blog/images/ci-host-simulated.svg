@@ -1,0 +1,69 @@
+<svg font-family="arial" font-size="14" height="288" width="560" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<marker id="triangle" markerHeight="10" markerUnits="strokeWidth" markerWidth="10" orient="auto" refX="15" refY="10" viewBox="0 0 50 20">
+<path d="M 0 0 L 30 10 L 0 20 z"/>
+</marker>
+</defs>
+<style>
+
+    line, path {
+      stroke: black;
+      stroke-width: 2;
+      stroke-opacity: 1;
+      fill-opacity: 1;
+      stroke-linecap: round;
+      stroke-linejoin: miter;
+    }
+    circle {
+      stroke: black;
+      stroke-width: 2;
+      stroke-opacity: 1;
+      fill-opacity: 1;
+      stroke-linecap: round;
+      stroke-linejoin: miter;
+      fill:white;
+    }
+    circle.solid {
+      fill:black;
+    }
+    circle.open {
+      fill:white;
+    }
+    tspan.head{
+        fill: none;
+        stroke: none;
+    }
+    
+</style>
+<path d=" M 4 12 L 4 224 M 8 8 A 4 4 0 0 0 4 12 M 8 8 L 520 8 M 524 12 L 524 224 M 524 12 A 4 4 0 0 0 520 8 M 4 16 L 4 224 M 524 16 L 524 224 M 16 40 L 4 40 M 16 40 L 524 40 M 20 76 L 20 160 M 24 72 A 4 4 0 0 0 20 76 M 24 72 L 200 72 M 204 76 L 204 160 M 204 76 A 4 4 0 0 0 200 72 M 260 76 L 260 192 M 264 72 A 4 4 0 0 0 260 76 M 264 72 L 504 72 M 508 76 L 508 192 M 508 76 A 4 4 0 0 0 504 72 M 20 80 L 20 160 M 204 80 L 204 160 M 260 80 L 260 192 M 508 80 L 508 192 M 32 104 L 20 104 M 32 104 L 204 104 M 272 104 L 260 104 M 272 104 L 508 104 M 276 124 L 276 176 M 280 120 A 4 4 0 0 0 276 124 M 280 120 L 488 120 M 492 124 L 492 176 M 492 124 A 4 4 0 0 0 488 120 M 276 128 L 276 176 M 492 128 L 492 176 M 20 160 L 20 164 A 4 4 0 0 0 24 168 L 200 168 M 204 160 L 204 164 M 200 168 A 4 4 0 0 0 204 164 M 276 176 L 276 180 A 4 4 0 0 0 280 184 L 488 184 M 492 176 L 492 180 M 488 184 A 4 4 0 0 0 492 180 M 260 192 L 260 196 A 4 4 0 0 0 264 200 L 504 200 M 508 192 L 508 196 M 504 200 A 4 4 0 0 0 508 196 M 4 224 L 4 228 A 4 4 0 0 0 8 232 L 520 232 M 524 224 L 524 228 M 520 232 A 4 4 0 0 0 524 228" fill="none"/>
+<path d="" fill="none" stroke-dasharray="3 3"/>
+<line marker-end="url(#triangle)" x1="216" x2="212" y1="120" y2="120"/>
+<line marker-end="url(#triangle)" x1="216" x2="252" y1="120" y2="120"/>
+<text x="226" y="28">
+CI Server
+</text>
+<text x="42" y="92">
+Main Test Process
+</text>
+<text x="306" y="92">
+QEMU Target Simulator
+</text>
+<text x="50" y="124">
+Cross Compiler
+</text>
+<text x="34" y="140">
+QEMU Setup Script(s)
+</text>
+<text x="306" y="140">
+Unit Test Framework
+</text>
+<text x="42" y="156">
+Results Collector
+</text>
+<text x="330" y="156">
+Unit Test Code
+</text>
+<text x="290" y="172">
+Coverage Instrumentation
+</text>
+</svg>

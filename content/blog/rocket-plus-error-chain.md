@@ -1,8 +1,8 @@
 +++
 title = "Rocket + error_chain"
-date = 2017-07-22T23:00:00+02:00
+date = 2017-07-22
 draft = false
-aliases = ["update/2018/04/01/tinyrocket.html"]
+aliases = ["update/2017/07/22/rocket-plus-error-chain.html"]
 in_search_index = true
 template = "blog_post.html"
 

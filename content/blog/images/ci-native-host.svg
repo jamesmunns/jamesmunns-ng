@@ -1,0 +1,90 @@
+<svg font-family="arial" font-size="14" height="352" width="560" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<marker id="triangle" markerHeight="10" markerUnits="strokeWidth" markerWidth="10" orient="auto" refX="15" refY="10" viewBox="0 0 50 20">
+<path d="M 0 0 L 30 10 L 0 20 z"/>
+</marker>
+</defs>
+<style>
+
+    line, path {
+      stroke: black;
+      stroke-width: 2;
+      stroke-opacity: 1;
+      fill-opacity: 1;
+      stroke-linecap: round;
+      stroke-linejoin: miter;
+    }
+    circle {
+      stroke: black;
+      stroke-width: 2;
+      stroke-opacity: 1;
+      fill-opacity: 1;
+      stroke-linecap: round;
+      stroke-linejoin: miter;
+      fill:white;
+    }
+    circle.solid {
+      fill:black;
+    }
+    circle.open {
+      fill:white;
+    }
+    tspan.head{
+        fill: none;
+        stroke: none;
+    }
+    
+</style>
+<path d=" M 4 12 L 4 304 M 8 8 A 4 4 0 0 0 4 12 M 8 8 L 520 8 M 524 12 L 524 304 M 524 12 A 4 4 0 0 0 520 8 M 4 16 L 4 304 M 524 16 L 524 304 M 16 40 L 4 40 M 16 40 L 524 40 M 20 76 L 20 192 M 24 72 A 4 4 0 0 0 20 76 M 24 72 L 200 72 M 204 76 L 204 192 M 204 76 A 4 4 0 0 0 200 72 M 260 76 L 260 272 M 264 72 A 4 4 0 0 0 260 76 M 264 72 L 504 72 M 508 76 L 508 272 M 508 76 A 4 4 0 0 0 504 72 M 20 80 L 20 192 M 204 80 L 204 192 M 260 80 L 260 272 M 508 80 L 508 272 M 32 104 L 20 104 M 32 104 L 204 104 M 272 104 L 260 104 M 272 104 L 508 104 M 276 124 L 276 256 M 280 120 A 4 4 0 0 0 276 124 M 280 120 L 488 120 M 492 124 L 492 256 M 492 124 A 4 4 0 0 0 488 120 M 276 128 L 276 256 M 492 128 L 492 256 M 288 168 L 276 168 M 288 168 L 492 168 M 20 192 L 20 196 A 4 4 0 0 0 24 200 L 200 200 M 204 192 L 204 196 M 200 200 A 4 4 0 0 0 204 196 M 288 216 L 276 216 M 288 216 L 492 216 M 276 256 L 276 260 A 4 4 0 0 0 280 264 L 488 264 M 492 256 L 492 260 M 488 264 A 4 4 0 0 0 492 260 M 260 272 L 260 276 A 4 4 0 0 0 264 280 L 504 280 M 508 272 L 508 276 M 504 280 A 4 4 0 0 0 508 276 M 4 304 L 4 308 A 4 4 0 0 0 8 312 L 520 312 M 524 304 L 524 308 M 520 312 A 4 4 0 0 0 524 308" fill="none"/>
+<path d="" fill="none" stroke-dasharray="3 3"/>
+<line marker-end="url(#triangle)" x1="216" x2="212" y1="120" y2="120"/>
+<line marker-end="url(#triangle)" x1="216" x2="252" y1="120" y2="120"/>
+<text x="130" y="28">
+CI Server or Developer Environment
+</text>
+<text x="42" y="92">
+Main Test Process
+</text>
+<text x="298" y="92">
+Native Host Application
+</text>
+<text x="82" y="124">
+Compiler
+</text>
+<text x="50" y="140">
+Sensor Simulators
+</text>
+<text x="314" y="140">
+Device Application
+</text>
+<text x="34" y="156">
+Device Communication
+</text>
+<text x="362" y="156">
+Logic
+</text>
+<text x="42" y="172">
+Network Analyzer(s)
+</text>
+<text x="74" y="188">
+Test Code
+</text>
+<text x="306" y="188">
+Hardware Abstraction
+</text>
+<text x="362" y="204">
+Layer
+</text>
+<text x="314" y="236">
+&quot;
+</text>
+<text x="322" y="236">
+Native&quot;
+</text>
+<text x="386" y="236">
+Hardware
+</text>
+<text x="330" y="252">
+Implementation
+</text>
+</svg>

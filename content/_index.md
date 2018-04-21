@@ -1,6 +1,8 @@
 +++
-in_search_index = true
-template = "index.html"
-+++
+## AJM: uncomment these if I want to have something
+##      on my main page. For now, just redirect to the blog
+# in_search_index = true
+# template = "index.html"
 
-# Hey, I'm James.
+redirect_to = "blog/"
++++

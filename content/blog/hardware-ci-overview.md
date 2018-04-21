@@ -1,16 +1,14 @@
 +++
 title = "CI for Embedded Systems"
-date = 2017-05-07T05:00:00+02:00
+date = 2017-05-07
 draft = false
 # tags = ["tag1", "tag2"]
 # category = "rust"
-aliases = []
+aliases = ["update/2017/05/07/hardware-ci-overview.html"]
 in_search_index = true
 template = "blog_post.html"
 +++
 
-![CI Header Image]({{ get_url(ci-header.jpg) }} "CI Header Image")
-<br>
 > I was wondering what solutions exist for CI in the embedded space. I'm trying to streamline and speed up project development ... and feel CI might help in that process. I come from a higher level language background and have seen tools like TeamCity and Vagrant manage the build-test-deploy pipeline, and was wondering if this is a thing in the embedded world too.
 > - Vignesh Sankaran
 
@@ -29,15 +27,13 @@ Simulated Host Testing  | Unit Testing, Integration Testing     | ?             
 "Native" Host Testing   | Unit Testing, Integration Testing     | Low to High   | Medium-High
 HIL (Easy)              | System Testing                        | Low to Medium | High
 HIL (Hard)              | System Testing                        | High          | Medium-High
-{:.mbtablestyle}
 
-<br>
 
 ### CI Build
 
 #### What is it?
 
-![CI Build]({{ get_url(ci-build.svg) }} "CI Build Diagram")
+<img src="../images/ci-build.svg" alt="CI Build Diagram">
 
 CI Building is the process of setting up your compilation process, as well as any static analysis you have set up (such as LINTers, Code Quality or Style checkers, Max Stack usage, etc) to be run on a CI server. Ideally, this build would be triggered on any commit, and run in a textually defined environment such as Docker or Vagrant.
 
@@ -66,7 +62,7 @@ As a note, if you use proprietary tools such as a compiler that requires a licen
 
 #### What is it?
 
-![Non-Host Testing]({{ get_url(ci-non-host.svg) }} "Non-Host Testing Diagram")
+<img src="../images/ci-non-host.svg" alt="Non-Host Testing Diagram">
 
 Non-Host testing is the action of running any Unit or Integration tests you have, but compiling and running them on a different platform (e.g. compile and run on x86 instead of ARM, MSP, etc). This allows you to test the business logic of your code, without necessarily testing platform-specific behavior. It is also possible to capture other reports, such as Code Coverage reports.
 
@@ -99,7 +95,7 @@ Tests that are run automatically and continuously have a wonderful level of feed
 
 #### What is it?
 
-![Host Testing]({{ get_url(ci-host-test.svg) }} "Host Testing Diagram")
+<img src="../images/ci-host-test.svg" alt="Host Testing Diagram">
 
 Some Unit Testing frameworks are lightweight enough to be run on target hardware. Host testing allows the the CI server to cross compile these tests, load them to the target hardware, run them there, and collect the reports via a serial port or other interface.
 
@@ -124,7 +120,7 @@ Similar to Non-Host testing, you will get continuous feedback on the test status
 
 ### Simulated Host Testing
 
-![Simulated Host Testing]({{ get_url(ci-host-simulated.svg) }} "Simulated Host Testing Diagram")
+<img src="../images/ci-host-simulated.svg" alt="Simulated Host Testing Diagram">
 
 Simulated Host Testing is somewhere between Non-Host Testing and Host Testing. Rather than run on physical hardware, you use a tool such as QEMU to simulate your target platform with a high level of accuracy.
 
@@ -134,7 +130,7 @@ I have not personally set up this kind of testing, so I cannot comment on how ha
 
 ### "Native" Host Testing
 
-![Native Host Testing]({{ get_url(ci-native-host.svg) }} "Native Host Testing Diagram")
+<img src="../images/ci-native-host.svg" alt="Native Host Testing Diagram">
 
 #### What is it?
 
@@ -170,7 +166,7 @@ Normally these techniques would require highly specialized (and highly expensive
 
 #### What is it?
 
-![Easy HIL Testing]({{ get_url(ci-hil-easy.svg) }} "Easy HIL Testing Diagram")
+<img src="../images/ci-hil-easy.svg" alt="Easy HIL Testing Diagram">
 
 HIL or Hardware In the Loop testing entails using your physical hardware target to run high level tests (typically using the "release" or "debug" firmware). The "Easy" version of this can be used when your device uses "normal" interfaces that can interact with a PC. This could include Ethernet, Serial Ports, or even interfaces like CANbus which can be connected via a USB adapter. It is also important that these tests do not require a high level of timing accuracy, as most Desktop PCs cannot respond reliably on the millisecond or below level.
 
@@ -194,7 +190,7 @@ Unit tests, while valuable, only catch a certain class of errors. Particularly i
 
 ### HIL Testing (Hard)
 
-![Hard HIL Testing]({{ get_url(ci-hil-hard.svg) }} "Hard HIL Testing Diagram")
+<img src="../images/ci-hil-hard.svg" alt="Hard HIL Testing Diagram">
 
 This approach builds on top of the easy version of HIL testing, however some devices require unconventional, proprietary, or custom interfaces to interact with. Additionally, some testing requires millisecond or sub-millisecond precision for accurate testing (especially safety critical devices).
 

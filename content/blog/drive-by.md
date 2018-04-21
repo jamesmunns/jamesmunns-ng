@@ -1,10 +1,10 @@
 +++
 title = "Drive By Scanning"
-date = 2016-09-06T03:00:00+02:00
+date = 2016-09-06
 draft = false
 # tags = ["tag1", "tag2"]
 # category = "rust"
-aliases = []
+aliases = ["update/2016/09/06/drive-by.html"]
 in_search_index = true
 template = "blog_post.html"
 +++

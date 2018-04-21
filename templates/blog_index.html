@@ -1,7 +1,7 @@
 {% extends "base_layout.html" %}
 {% block content %}
     <div class="posts">
-        {% for page in section.pages %}
+        {% for page in paginator.pages %}
           <div class="post">
             <h1 class="post-title">
               <a href="{{ page.permalink }}">

@@ -1,0 +1,52 @@
+<svg font-family="arial" font-size="14" height="208" width="256" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<marker id="triangle" markerHeight="10" markerUnits="strokeWidth" markerWidth="10" orient="auto" refX="15" refY="10" viewBox="0 0 50 20">
+<path d="M 0 0 L 30 10 L 0 20 z"/>
+</marker>
+</defs>
+<style>
+
+    line, path {
+      stroke: black;
+      stroke-width: 2;
+      stroke-opacity: 1;
+      fill-opacity: 1;
+      stroke-linecap: round;
+      stroke-linejoin: miter;
+    }
+    circle {
+      stroke: black;
+      stroke-width: 2;
+      stroke-opacity: 1;
+      fill-opacity: 1;
+      stroke-linecap: round;
+      stroke-linejoin: miter;
+      fill:white;
+    }
+    circle.solid {
+      fill:black;
+    }
+    circle.open {
+      fill:white;
+    }
+    tspan.head{
+        fill: none;
+        stroke: none;
+    }
+    
+</style>
+<path d=" M 4 12 L 4 160 M 8 8 A 4 4 0 0 0 4 12 M 8 8 L 216 8 M 220 12 L 220 160 M 220 12 A 4 4 0 0 0 216 8 M 4 16 L 4 160 M 220 16 L 220 160 M 16 40 L 4 40 M 16 40 L 220 40 M 20 76 L 20 128 M 24 72 A 4 4 0 0 0 20 76 M 24 72 L 200 72 M 204 76 L 204 128 M 204 76 A 4 4 0 0 0 200 72 M 20 80 L 20 128 M 204 80 L 204 128 M 20 128 L 20 132 A 4 4 0 0 0 24 136 L 200 136 M 204 128 L 204 132 M 200 136 A 4 4 0 0 0 204 132 M 4 160 L 4 164 A 4 4 0 0 0 8 168 L 216 168 M 220 160 L 220 164 M 216 168 A 4 4 0 0 0 220 164" fill="none"/>
+<path d="" fill="none" stroke-dasharray="3 3"/>
+<text x="74" y="28">
+CI Server
+</text>
+<text x="74" y="92">
+Unit Tests
+</text>
+<text x="82" y="108">
+Compiler
+</text>
+<text x="42" y="124">
+Code Coverage Tool
+</text>
+</svg>

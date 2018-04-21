@@ -1,20 +1,20 @@
 +++
 title = "Easier Rust Development on the PJRC Teensy 3"
-date = 2016-09-26T19:00:00+02:00
+date = 2016-09-26
 draft = false
 # tags = ["tag1", "tag2"]
 # category = "rust"
-aliases = []
+aliases = ["update/2016/09/26/teensy3-rs.html"]
 in_search_index = true
 template = "blog_post.html"
 +++
 
 I've written a bit about embedded devices, and a bit about Rust in the past, but I wanted to share something I've been working on (wtih the help of some really smart people) for the last few weeks. Today I was able to publish a crate called [teensy3](https://crates.io/crates/teensy3), which contains most of the boilerplate necessary to get started using Rust on the Cortex M4 based [PJRC Teensy 3.1 or 3.2](https://www.pjrc.com/teensy/index.html), as well as (unsafe) Rust binding for the **entire** Teensyduino API/HAL. Additionally, we have a demo repository containing [everything necessary](https://github.com/jamesmunns/teensy3-rs-demo/) to get started.
 
-<-- more -->
+<!-- more -->
 
-![Rust]({{ site.url }}/images/rust.png "Rustlang")
-![Teensy]({{ site.url }}/images/teensy32.jpg "Teensy32")
+<img src="../images/rust.png" alt="Rustlang Logo">
+<img src="../images/teensy32.jpg" alt="Teensy 3.2 Development Board">
 
 There are a number of other far more advanced embedded efforts being pushed for a fully native experience for embedded Rust, such as [Zinc.rs](https://github.com/hackndev/zinc), [Tock](https://github.com/helena-project/tock), all of [Japaric's work](https://github.com/japaric/copper), and probably lots more that I haven't even found yet. However, until the embedded Rust ecosystem stabilizes, hopefully [coming soon](https://github.com/rust-lang/rfcs/pull/1645), there is a bit of a vacuum for "low barrier to entry" effort of trying Rust on a microcontroller. By providing bindings to the Arduino API/HAL, hopefully it will be possible to write semi-portable, and easily usable Rust application level code for platforms like the Teensy.
 

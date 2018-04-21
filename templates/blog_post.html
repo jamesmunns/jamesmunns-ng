@@ -7,9 +7,9 @@
   {{ page.content | safe }}
 </div>
 
-    {% if page.previous %}<a href="{{ page.previous.permalink }}">Previous article{% endif %}
-    |
-    {% if page.next %}<a href="{{ page.next.permalink }}">Next article{% endif %}
+    {% if page.previous %}<a href="{{ page.previous.permalink }}">Previous article</a>{% endif %}
+    {% if page.next and page.previous %}|{% endif %}
+    {% if page.next %}<a href="{{ page.next.permalink }}">Next article</a>{% endif %}
 
 {% endblock content %}
 

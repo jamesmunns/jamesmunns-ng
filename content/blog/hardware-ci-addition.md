@@ -1,10 +1,10 @@
 +++
 title = "Embedded CI Post Update"
-date = 2017-05-21T14:30:00+02:00
+date = 2017-05-21
 draft = false
 # tags = ["tag1", "tag2"]
 # category = "rust"
-aliases = []
+aliases = ["update/2017/05/21/hardware-ci-addition.html"]
 in_search_index = true
 template = "blog_post.html"
 +++

@@ -1,10 +1,10 @@
 +++
 title = "Rust <3's Embedded"
-date = 2017-05-23T14:30:00+02:00
+date = 2017-05-23
 draft = false
 # tags = ["tag1", "tag2"]
 # category = "rust"
-aliases = []
+aliases = ["update/2017/05/23/rust-embedded-1.html"]
 in_search_index = true
 template = "blog_post.html"
 +++

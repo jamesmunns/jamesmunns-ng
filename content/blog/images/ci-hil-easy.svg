@@ -1,0 +1,79 @@
+<svg font-family="arial" font-size="14" height="240" width="600" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<marker id="triangle" markerHeight="10" markerUnits="strokeWidth" markerWidth="10" orient="auto" refX="15" refY="10" viewBox="0 0 50 20">
+<path d="M 0 0 L 30 10 L 0 20 z"/>
+</marker>
+</defs>
+<style>
+
+    line, path {
+      stroke: black;
+      stroke-width: 2;
+      stroke-opacity: 1;
+      fill-opacity: 1;
+      stroke-linecap: round;
+      stroke-linejoin: miter;
+    }
+    circle {
+      stroke: black;
+      stroke-width: 2;
+      stroke-opacity: 1;
+      fill-opacity: 1;
+      stroke-linecap: round;
+      stroke-linejoin: miter;
+      fill:white;
+    }
+    circle.solid {
+      fill:black;
+    }
+    circle.open {
+      fill:white;
+    }
+    tspan.head{
+        fill: none;
+        stroke: none;
+    }
+    
+</style>
+<path d=" M 4 12 L 4 192 M 8 8 A 4 4 0 0 0 4 12 M 8 8 L 224 8 M 228 12 L 228 192 M 228 12 A 4 4 0 0 0 224 8 M 4 16 L 4 192 M 228 16 L 228 192 M 316 28 L 316 192 M 320 24 A 4 4 0 0 0 316 28 M 320 24 L 560 24 M 564 28 L 564 192 M 564 28 A 4 4 0 0 0 560 24 M 16 40 L 4 40 M 16 40 L 228 40 M 316 32 L 316 192 M 564 32 L 564 192 M 328 56 L 316 56 M 328 56 L 564 56 M 20 76 L 20 160 M 24 72 A 4 4 0 0 0 20 76 M 24 72 L 208 72 M 212 76 L 212 160 M 212 76 A 4 4 0 0 0 208 72 M 332 76 L 332 96 M 336 72 A 4 4 0 0 0 332 76 M 336 72 L 544 72 M 548 76 L 548 96 M 548 76 A 4 4 0 0 0 544 72 M 20 80 L 20 160 M 212 80 L 212 160 M 332 80 L 332 96 M 548 80 L 548 96 M 332 96 L 332 100 A 4 4 0 0 0 336 104 L 544 104 M 548 96 L 548 100 M 544 104 A 4 4 0 0 0 548 100 M 20 160 L 20 164 A 4 4 0 0 0 24 168 L 208 168 M 212 160 L 212 164 M 208 168 A 4 4 0 0 0 212 164 M 4 192 L 4 196 A 4 4 0 0 0 8 200 L 224 200 M 228 192 L 228 196 M 224 200 A 4 4 0 0 0 228 196 M 316 192 L 316 196 A 4 4 0 0 0 320 200 L 560 200 M 564 192 L 564 196 M 560 200 A 4 4 0 0 0 564 196" fill="none"/>
+<path d="" fill="none" stroke-dasharray="3 3"/>
+<line marker-end="url(#triangle)" x1="240" x2="236" y1="88" y2="88"/>
+<line marker-end="url(#triangle)" x1="240" x2="308" y1="88" y2="88"/>
+<line marker-end="url(#triangle)" x1="240" x2="236" y1="136" y2="136"/>
+<line marker-end="url(#triangle)" x1="240" x2="308" y1="136" y2="136"/>
+<line marker-end="url(#triangle)" x1="240" x2="236" y1="184" y2="184"/>
+<line marker-end="url(#triangle)" x1="240" x2="308" y1="184" y2="184"/>
+<text x="82" y="28">
+CI Server
+</text>
+<text x="378" y="44">
+Embedded Target
+</text>
+<text x="258" y="76">
+JTAG
+</text>
+<text x="58" y="92">
+Cross Compiler
+</text>
+<text x="354" y="92">
+Normal Device Firmware
+</text>
+<text x="42" y="108">
+Firmware Programmer
+</text>
+<text x="50" y="124">
+Testing Framework
+</text>
+<text x="258" y="124">
+UART
+</text>
+<text x="34" y="140">
+Test Hardware Drivers
+</text>
+<text x="50" y="156">
+System Test Code
+</text>
+<text x="242" y="172">
+Ethernet
+</text>
+</svg>

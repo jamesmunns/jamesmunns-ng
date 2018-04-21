@@ -1,6 +1,6 @@
 +++
 title = "Tiny Rocket"
-date = 2018-02-18T12:00:00Z
+date = 2018-04-01
 draft = false
 aliases = ["update/2018/04/01/tinyrocket.html"]
 in_search_index = true

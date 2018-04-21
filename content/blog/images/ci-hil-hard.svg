@@ -1,0 +1,112 @@
+<svg font-family="arial" font-size="14" height="448" width="600" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<marker id="triangle" markerHeight="10" markerUnits="strokeWidth" markerWidth="10" orient="auto" refX="15" refY="10" viewBox="0 0 50 20">
+<path d="M 0 0 L 30 10 L 0 20 z"/>
+</marker>
+</defs>
+<style>
+
+    line, path {
+      stroke: black;
+      stroke-width: 2;
+      stroke-opacity: 1;
+      fill-opacity: 1;
+      stroke-linecap: round;
+      stroke-linejoin: miter;
+    }
+    circle {
+      stroke: black;
+      stroke-width: 2;
+      stroke-opacity: 1;
+      fill-opacity: 1;
+      stroke-linecap: round;
+      stroke-linejoin: miter;
+      fill:white;
+    }
+    circle.solid {
+      fill:black;
+    }
+    circle.open {
+      fill:white;
+    }
+    tspan.head{
+        fill: none;
+        stroke: none;
+    }
+    
+</style>
+<path d=" M 4 12 L 4 224 M 8 8 A 4 4 0 0 0 4 12 M 8 8 L 224 8 M 228 12 L 228 224 M 228 12 A 4 4 0 0 0 224 8 M 4 16 L 4 224 M 228 16 L 228 224 M 316 28 L 316 224 M 320 24 A 4 4 0 0 0 316 28 M 320 24 L 560 24 M 564 28 L 564 224 M 564 28 A 4 4 0 0 0 560 24 M 16 40 L 4 40 M 16 40 L 228 40 M 316 32 L 316 224 M 564 32 L 564 224 M 328 56 L 316 56 M 328 56 L 564 56 M 20 76 L 20 192 M 24 72 A 4 4 0 0 0 20 76 M 24 72 L 208 72 M 212 76 L 212 192 M 212 76 A 4 4 0 0 0 208 72 M 332 76 L 332 96 M 336 72 A 4 4 0 0 0 332 76 M 336 72 L 544 72 M 548 76 L 548 96 M 548 76 A 4 4 0 0 0 544 72 M 20 80 L 20 192 M 212 80 L 212 192 M 332 80 L 332 96 M 548 80 L 548 96 M 332 96 L 332 100 A 4 4 0 0 0 336 104 L 544 104 M 548 96 L 548 100 M 544 104 A 4 4 0 0 0 548 100 M 20 192 L 20 196 A 4 4 0 0 0 24 200 L 208 200 M 212 192 L 212 196 M 208 200 A 4 4 0 0 0 212 196 M 4 224 L 4 228 A 4 4 0 0 0 8 232 L 224 232 M 228 224 L 228 228 M 224 232 A 4 4 0 0 0 228 228 M 316 224 L 316 228 A 4 4 0 0 0 320 232 L 560 232 M 564 224 L 564 228 M 560 232 A 4 4 0 0 0 564 228 M 100 256 L 100 352 M 164 268 L 164 400 M 168 264 A 4 4 0 0 0 164 268 M 168 264 L 400 264 M 404 268 L 404 400 M 404 268 A 4 4 0 0 0 400 264 M 476 256 L 476 304 M 516 256 L 516 352 M 164 272 L 164 400 M 404 272 L 404 400 M 176 296 L 164 296 M 176 296 L 404 296 M 416 312 L 472 312 M 476 304 L 476 308 M 472 312 A 4 4 0 0 0 476 308 M 180 332 L 180 384 M 184 328 A 4 4 0 0 0 180 332 M 184 328 L 384 328 M 388 332 L 388 384 M 388 332 A 4 4 0 0 0 384 328 M 180 336 L 180 384 M 388 336 L 388 384 M 100 352 L 100 356 A 4 4 0 0 0 104 360 M 416 360 L 512 360 M 516 352 L 516 356 M 512 360 A 4 4 0 0 0 516 356 M 180 384 L 180 388 A 4 4 0 0 0 184 392 L 384 392 M 388 384 L 388 388 M 384 392 A 4 4 0 0 0 388 388 M 164 400 L 164 404 A 4 4 0 0 0 168 408 L 400 408 M 404 400 L 404 404 M 400 408 A 4 4 0 0 0 404 404" fill="none"/>
+<path d="" fill="none" stroke-dasharray="3 3"/>
+<line marker-end="url(#triangle)" x1="240" x2="236" y1="88" y2="88"/>
+<line marker-end="url(#triangle)" x1="240" x2="308" y1="88" y2="88"/>
+<line marker-end="url(#triangle)" x1="240" x2="236" y1="136" y2="136"/>
+<line marker-end="url(#triangle)" x1="240" x2="308" y1="136" y2="136"/>
+<line marker-end="url(#triangle)" x1="240" x2="236" y1="184" y2="184"/>
+<line marker-end="url(#triangle)" x1="240" x2="308" y1="184" y2="184"/>
+<line marker-end="url(#triangle)" x1="100" x2="100" y1="256" y2="240"/>
+<line marker-end="url(#triangle)" x1="476" x2="476" y1="256" y2="240"/>
+<line marker-end="url(#triangle)" x1="516" x2="516" y1="256" y2="240"/>
+<line marker-end="url(#triangle)" x1="416" x2="412" y1="312" y2="312"/>
+<line marker-end="url(#triangle)" x1="104" x2="156" y1="360" y2="360"/>
+<line marker-end="url(#triangle)" x1="416" x2="412" y1="360" y2="360"/>
+<text x="82" y="28">
+CI Server
+</text>
+<text x="378" y="44">
+Embedded Target
+</text>
+<text x="258" y="76">
+JTAG
+</text>
+<text x="58" y="92">
+Cross Compiler
+</text>
+<text x="354" y="92">
+Normal Device Firmware
+</text>
+<text x="42" y="108">
+Firmware Programmer
+</text>
+<text x="50" y="124">
+Testing Framework
+</text>
+<text x="258" y="124">
+UART
+</text>
+<text x="34" y="140">
+Test Hardware Drivers
+</text>
+<text x="34" y="156">
+Coprocessor Firmware
+</text>
+<text x="42" y="172">
+Coprocessor Drivers
+</text>
+<text x="242" y="172">
+Ethernet
+</text>
+<text x="50" y="188">
+System Test Code
+</text>
+<text x="194" y="284">
+Testing Coprocessor(s)
+</text>
+<text x="418" y="332">
+GPIO(s)
+</text>
+<text x="202" y="348">
+Coprocessor Firmware
+</text>
+<text x="194" y="364">
+CI Server Communication
+</text>
+<text x="114" y="380">
+USB
+</text>
+<text x="194" y="380">
+Target Interface Driver
+</text>
+<text x="442" y="380">
+SPI
+</text>
+</svg>
