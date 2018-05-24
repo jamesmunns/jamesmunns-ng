@@ -4,7 +4,7 @@ date = 2016-07-31T13:00:00+02:00
 draft = false
 # tags = ["tag1", "tag2"]
 # category = "rust"
-aliases = ["update/2016/07/31/august-sprint.html"]
+aliases = ["update/2016/07/31/thirty-days.html"]
 in_search_index = true
 template = "blog_post.html"
 +++

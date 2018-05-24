@@ -28,4 +28,4 @@ generate_rss = true
 hyde_links = [
 ]
 hyde_theme = "theme-base-1f"
-analytics_id = "UA-81709011-1"
+# analytics_id = "UA-81709011-1"
