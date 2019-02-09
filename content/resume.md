@@ -23,13 +23,25 @@ I have an easygoing personality, and enjoy diving deep into technical knowledge,
 
 ## **Work Experience**
 
+### Ferrous Systems GmbH
+
+> **Managing Director**
+> <br>Berlin, DE
+> <br>*09.2019 - Current*
+
+* Leading company focus on target areas in Systems Development
+* Providing consulting services for embedded development
+* Providing training services for the Rust Programming Language, Safety Critical development, and embedded development areas
+
 ### Telefónica Next GmbH
 
-> **Embedded Systems Developer**
+> **Tech Lead**
 > <br>Berlin, DE
-> <br>*03.2017 - Current*
+> <br>*03.2017 - 09.2018*
 
-Developing SDKs for bare metal and linux-based IoT devices
+* Developed SDKs for bare metal and linux-based IoT devices
+* Advised on interactions with resourced constrained systems for Cloud Platform Development
+* Rapidly prototyped proof of concept installations for customer integrations
 
 ### Relayr GmbH
 
