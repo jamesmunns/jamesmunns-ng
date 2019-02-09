@@ -27,7 +27,7 @@ I have an easygoing personality, and enjoy diving deep into technical knowledge,
 
 > **Managing Director**
 > <br>Berlin, DE
-> <br>*09.2019 - Current*
+> <br>*09.2018 - Current*
 
 * Leading company focus on target areas in Systems Development
 * Providing consulting services for embedded development
