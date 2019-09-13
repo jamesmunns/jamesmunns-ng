@@ -25,7 +25,7 @@ The "Shepherding 3.1" name comes from a blog post written by Niko Matsakis title
 The concept of Shepherding has a few concrete aims:
 
 1. To address the needs of volunteer driven open source projects
-2. To limit the amount of work in flight at once
+2. To limit the amount of work in flight at once by requiring a shepherd for all tasks
 3. To provide accountability and visibility to things that are, and are not, in progress
 4. To provide a structure for collaboration, including for established contributors as well as new or prospective contributors
 5. To define consistent terminology, allowing members of similar teams (e.g. the Rust Language Team and the Rust Embedded Working Group) to share a common understanding of how each other operates
@@ -34,10 +34,55 @@ The concept of Shepherding has a few concrete aims:
 
 The following are specifically NOT aims of Shepherding:
 
-* Shepherding does not aim to be a decision making process, at least not in the way that the [RFC Process] aims to be
+* Shepherding does not aim to be a design or decision making process, at least not in the way that the [RFC Process] aims to be
 * Shepherding does not aim to prescribe what SHOULD be worked on. As open source projects are largely volunteer driven, it should provide a structure for people to contribute to things that matter to them.
 * Shepherding does not prescribe a strict implementation, but instead provides a framework that can be adapted to teams with different needs
-* Shepherding does not aim to be a general purpose management framework applicable to companies or non-volunteer projects
+* Shepherding does not aim to be a general purpose management or time tracking framework applicable to companies or non-volunteer projects
+
+## Shepherding By Example
+
+The following is a step-by-step guide to setting up Shepherding for a project. For a definition of the terms used here, see the [Important Concepts](#important-concepts) section below.
+
+### Step 0: Set up your project
+
+You need to answer the following items for your project:
+
+1. Who are the shepherds in your team?
+    * This could be all or a subset current contributors in your repository or organization
+2. What is tracked for each task?
+    * See below for an example template using a markdown file to maintain information about each task
+3. Where are tasks tracked?
+    * A folder with all tasks in your repo or a separate coordination repository is a great place to start, e.g. a `tasks/` folder in your repository, or a `tasks` repository in your organization
+    * Subfolders for each of the different task states can be useful for organization, e.g. `tasks/in-progress/` or `tasks/rejected/`
+4. How are tasks added, and how is the task state updated?
+    * Pull or Merge Requests can be useful for this. Contributors can open PRs to suggest tasks, receive feedback on their proposal, and solicit a shepherd
+    * Pull requests can also be used to update state, either changing information within the task, or moving the task from one state folder to another
+5. How can potential contributors solicit a shepherd?
+    * Is there a mailing list, chat room, or other venue used by shepherds?
+    * Is it acceptable for potential contributors to directly mention shepherds in the PRs proposing a task?
+6. Where and when is status of a task tracked?
+    * Does your team have a regular meeting that can be used to discuss all open tasks?
+    * How often does your team need to meet to discuss all open tasks, and what format should updates be presented in?
+7. What are the task states used by your project?
+    * For example, the following might be a good initial set of states:
+        * Proposal - A PR is open and feedback or a mentor is needed
+        * Active - Work is occuring actively on this task
+        * On Hold - Work is not active currently, but is expected to resume
+        * Rejected - Work is not expected to resume
+        * Completed - Work as finished on this task
+8. When and how does a task move from one state to another? What should happen when moving to each state
+
+For each of these questions, you should document the answers in a publicly accessible location, such as `CONTRIBUTING.md` in your repository. This becomes a central place to point potential contributors who are interested in getting involved.
+
+### Step 1: Proposing a Task
+
+### Step 2: Accepting a Task
+
+### Step 3: Status Updates
+
+### Step 4: Completing a Task
+
+### Step 5: Iterate
 
 ## Important Concepts
 
