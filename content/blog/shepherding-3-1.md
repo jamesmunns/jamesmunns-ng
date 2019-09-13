@@ -8,13 +8,13 @@ template = "blog_post.html"
 
 For open source projects, it can be difficult to find balance between a number of factors: the free time of contributors, the desires of the communities using the project, the ability to on-ramp and mentor new contributors, and to provide necessary guidance and feedback.
 
-The Rust Projects, and multiple sub-teams and working groups have found success in use of the [RFC Process] for making informed, high level decisions. However, the RFC process does not address the work necessary for exploratory projects before a decision is made, the work necessary to implement made decisions, or the work necessary to maintain and overhaul parts of the projects in the long run.
+The Rust Project, and multiple sub-teams and working groups have found success in use of the [RFC Process] for making informed, high level decisions. However, the RFC process does not address the work necessary for exploratory projects before a decision is made, the work necessary to implement made decisions, or the work necessary to maintain and overhaul parts of the projects in the long run.
 
 [RFC Process]: #
 
-To address these needs, I'd like to propose a general concept and approach called **Shepherding**, which aims to assist maintainers of these projects with this aspect of the managing the project. By enumerating core goals and putting a name to concepts, but specifically NOT mandating every aspect of implementation, I hope that this technique can be applied across many teams inside and outside of the Rust Project.
+To address these needs, I'd like to propose a general concept and approach called **Shepherding**, which aims to assist maintainers of these projects with this aspect of managing the project. By enumerating core goals and putting a name to concepts, but specifically NOT mandating every aspect of implementation, I hope that this technique can be applied across many teams inside and outside of the Rust Project.
 
-The "Shepherding 3.1" name comes from a blog post written by Niko Matsakis titled [Shepherds 3.0], which also does an excellent job describing the motivations regarding these efforts. This post instead makes a few clarifications and additions to the 3.0 post, and aims to be a "reference manual" for the concept, defining terms and important goals, rather than discussing motivations.
+The "Shepherding v3.1" name comes from a blog post written by Niko Matsakis titled [Shepherds 3.0], which also does an excellent job describing the motivations regarding these efforts. This post instead makes a few clarifications and additions to the 3.0 post, and aims to be a "reference manual" for the concept, defining terms and important goals, rather than discussing motivations.
 
 [Shepherds 3.0]: http://smallcultfollowing.com/babysteps/blog/2019/09/11/aic-shepherds-3-0/
 
@@ -65,7 +65,7 @@ The following is a step-by-step guide to setting up Shepherding for a project. F
 You need to answer the following items for your project:
 
 1. Who are the shepherds in your team?
-    * This could be all or a subset current contributors in your repository or organization
+    * This could be all or a subset of current contributors in your repository or organization
 2. What is tracked for each task?
     * See below for an [example template](#a-sample-task-file) using a markdown file to maintain information about each task
 3. Where are tasks tracked?
@@ -82,8 +82,8 @@ You need to answer the following items for your project:
     * How often does your team need to meet to discuss all open tasks, and what format should updates be presented in?
 7. What are the task states used by your project?
     * For example, the following might be a good initial set of states:
-        * Proposal - A PR is open and feedback or a mentor is needed
-        * Active - Work is occuring actively on this task
+        * Proposal - A PR is open and feedback or a shepherd is needed
+        * Active - Work is occurring actively on this task
         * On Hold - Work is not active currently, but is expected to resume
         * Rejected - Work is not expected to resume
         * Completed - Work as finished on this task
