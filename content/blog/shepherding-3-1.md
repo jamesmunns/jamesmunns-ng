@@ -12,13 +12,29 @@ The Rust Projects, and multiple sub-teams and working groups have found success 
 
 [RFC Process]: #
 
-To address these needs, I'd like to propose a general concept and approach called **Shepherding**, which aims to assist maintainers of these projects with this aspect of the managing the project. By enumerating core goals and putting a name to concept, but specifically NOT mandating every aspect of implementation, I hope that this technique can be applied across many teams inside and outside of the Rust Project.
+To address these needs, I'd like to propose a general concept and approach called **Shepherding**, which aims to assist maintainers of these projects with this aspect of the managing the project. By enumerating core goals and putting a name to concepts, but specifically NOT mandating every aspect of implementation, I hope that this technique can be applied across many teams inside and outside of the Rust Project.
 
 The "Shepherding 3.1" name comes from a blog post written by Niko Matsakis titled [Shepherds 3.0], which also does an excellent job describing the motivations regarding these efforts. This post instead makes a few clarifications and additions to the 3.0 post, and aims to be a "reference manual" for the concept, defining terms and important goals, rather than discussing motivations.
 
 [Shepherds 3.0]: http://smallcultfollowing.com/babysteps/blog/2019/09/11/aic-shepherds-3-0/
 
 <!-- more -->
+
+## Shepherding In Short
+
+Described shortly, Shepherding describes a process of capturing work as tasks, and finding one or more persons responsible for this Task, known as a Shepherd.
+
+By selecting the Shepherding approach, maintainers can provide a consistent, explicitly written process for contributing non-trivial changes to a project, giving a path for potential new contributors.
+
+Shepherding also aims to act as an on-ramp for contributors, giving them a list of projects that need assistance, as well as the ability to suggest improvements, changes, or additions; and to find a shepherd who can assist them with needed mentorship.
+
+Shepherds are expected to be responsible for tracking and guiding the progress of their task, but are not expected to be the sole contributor to this task. Shepherds are expected to typically only be tied to one task at a time, in order to keep all open tasks progressing, as well as to limit the number of tasks open at any given time.
+
+Contributors are expected to take feedback from their shepherd, and to assist in delivering the work described by a single task.
+
+After contributing to a task, the hope is to find new potential shepherds, growing the set of people who feel empowered to assist others in tasks.
+
+Projects can rely on shepherds to give accurate status updates to how any single task is progressing, as well as make informed decisions whether tasks should continue, be considered complete, or that work should stop without reaching completion.
 
 ## What Shepherding is, and is not
 
@@ -29,15 +45,16 @@ The concept of Shepherding has a few concrete aims:
 3. To provide accountability and visibility to things that are, and are not, in progress
 4. To provide a structure for collaboration, including for established contributors as well as new or prospective contributors
 5. To define consistent terminology, allowing members of similar teams (e.g. the Rust Language Team and the Rust Embedded Working Group) to share a common understanding of how each other operates
-6. To empower maintainers by giving them tools to manage their projects and the expectations of the people using their project
+6. To empower maintainers by giving them tools to manage their projects and manage the expectations of the people requesting changes to their project
 7. To empower contributors by giving them documented ways to become involved with the projects
 
 The following are specifically NOT aims of Shepherding:
 
 * Shepherding does not aim to be a design or decision making process, at least not in the way that the [RFC Process] aims to be
-* Shepherding does not aim to prescribe what SHOULD be worked on. As open source projects are largely volunteer driven, it should provide a structure for people to contribute to things that matter to them.
+* Shepherding does not aim to prescribe what SHOULD be worked on. As open source projects are largely volunteer driven, it should provide a structure for people to contribute to things that matter to them, or to fit within already established design processes.
 * Shepherding does not prescribe a strict implementation, but instead provides a framework that can be adapted to teams with different needs
 * Shepherding does not aim to be a general purpose management or time tracking framework applicable to companies or non-volunteer projects
+
 
 ## Shepherding By Example
 
@@ -50,7 +67,7 @@ You need to answer the following items for your project:
 1. Who are the shepherds in your team?
     * This could be all or a subset current contributors in your repository or organization
 2. What is tracked for each task?
-    * See below for an example template using a markdown file to maintain information about each task
+    * See below for an [example template](#a-sample-task-file) using a markdown file to maintain information about each task
 3. Where are tasks tracked?
     * A folder with all tasks in your repo or a separate coordination repository is a great place to start, e.g. a `tasks/` folder in your repository, or a `tasks` repository in your organization
     * Subfolders for each of the different task states can be useful for organization, e.g. `tasks/in-progress/` or `tasks/rejected/`
@@ -74,15 +91,63 @@ You need to answer the following items for your project:
 
 For each of these questions, you should document the answers in a publicly accessible location, such as `CONTRIBUTING.md` in your repository. This becomes a central place to point potential contributors who are interested in getting involved.
 
+#### A Sample Task File
+
+A project could consider adding (or customizing) the following markdown template, which can be used for opening PRs adding a potential task:
+
+```markdown
+# Metadata
+
+These items should be filled in on accepting of this task:
+
+* (task shepherd)
+* (who are contributors to this task?)
+* (link to the external repository/fork/branch where work on this task is occuring)
+
+# Background
+
+* What is the current problem or shortcoming motivating this task?
+* What is the relevance to this project?
+
+# Suggested Task
+
+* What is the desired outcome to address this problem/shortcoming?
+* What is necessary to achieve this outcome?
+```
+
 ### Step 1: Proposing a Task
+
+A current or new contributor decides to propose a task to be worked on. The contributor forks the project repository, and copies the `task-template.md` to the active task folder giving it an appropriate name, e.g. `tasks/active/my-new-task.md`. The contributor submits these changes as a PR to the open source project.
+
+The contributor initially fills in their proposal, and reaches out to the chat room or mailing list of the open source project, linking them to the open PR proposing the new task.
 
 ### Step 2: Accepting a Task
 
+Members of the project discuss this task, and provide feedback on the proposed task. Once the proposed task has been refined, an existing contributor with knowledge relevant to this task volunteers to shepherd this task, and adds their name to the task file. Additional contributors also add their name to the task file.
+
+The PR is merged, moving the proposed task to the "Active" state.
+
 ### Step 3: Status Updates
+
+Now that the task is active, work on the task is expected to begin. The shepherd and other contributors work on this task in a fork of the main repository, adding or changing things as necessary.
+
+At each of the team's weekly chat meetings, the shepherd gives an update on the progress, even if the update is "No progress this week".
 
 ### Step 4: Completing a Task
 
+If a task stalls due to time constraints or other outside factors, the shepherd (or anyone else) may submit a PR to move the task file from `tasks/active/my-new-task.md` to `tasks/on-hold/my-new-task.md`. In this PR, the task file should also be updated to document why this project is currently on hold, and what would be necessary to unblock it in the future. In this state, the shepherd is no longer expected to give regular status updates at the weekly meeting.
+
+If a task reaches an early end, finding that the task is not possible due to an unforeseen challenge, or simply unable to find people to work on it, the shepherd (or anyone else) may submit a PR to move the task file from `tasks/active/my-new-task.md` to `tasks/rejected/my-new-task.md`. In this PR, the task file should also be updated to document why this project has been rejected, and what information would useful for others to understand in the future.
+
+If a task reaches completion, the shepherd (or anyone else) may submit a PR to move the task file from `tasks/active/my-new-task.md` to `tasks/completed/my-new-task.md`. In this PR, the task file should also be updated to document the final result, as well as room for further exploration.
+
 ### Step 5: Iterate
+
+Now that a task has been completed, there is room for multiple potential iterations:
+
+* The shepherd could now decide to assist with another potential task
+* The project may now decide to add one or more contributors to the task to the list of potential shepherds
+* The project may decide to revise their process around shepherding to better fit their needs, adding or removing task states, or changing how progress is tracked in some way.
 
 ## Important Concepts
 
