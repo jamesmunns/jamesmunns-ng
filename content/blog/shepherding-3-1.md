@@ -1,6 +1,6 @@
 +++
 title = "Shepherding v3.1"
-date = 2019-09-12
+date = 2019-09-17
 draft = false
 in_search_index = true
 template = "blog_post.html"
