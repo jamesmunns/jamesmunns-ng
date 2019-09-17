@@ -10,7 +10,7 @@ For open source projects, it can be difficult to find balance between a number o
 
 The Rust Project, and multiple sub-teams and working groups have found success in use of the [RFC Process] for making informed, high level decisions. However, the RFC process does not address the work necessary for exploratory projects before a decision is made, the work necessary to implement made decisions, or the work necessary to maintain and overhaul parts of the projects in the long run.
 
-[RFC Process]: #
+[RFC Process]: https://github.com/rust-lang/rfcs/
 
 To address these needs, I'd like to propose a general concept and approach called **Shepherding**, which aims to assist maintainers of these projects with this aspect of managing the project. By enumerating core goals and putting a name to concepts, but specifically NOT mandating every aspect of implementation, I hope that this technique can be applied across many teams inside and outside of the Rust Project.
 
@@ -26,7 +26,12 @@ Described shortly, Shepherding describes a process of capturing work as tasks, a
 
 By selecting the Shepherding approach, maintainers can provide a consistent, explicitly written process for contributing non-trivial changes to a project, giving a path for potential new contributors.
 
-Shepherding also aims to act as an on-ramp for contributors, giving them a list of projects that need assistance, as well as the ability to suggest improvements, changes, or additions; and to find a shepherd who can assist them with needed mentorship.
+Shepherding also aims to act as an on-ramp for contributors, giving them:
+
+* A list of projects that need assistance
+* A way to find a shepherd who can assist them with needed mentorship
+* The ability to suggest improvements, changes, or additions
+* A chance to lead a project before taking on a larger mentoring/leadership role
 
 Shepherds are expected to be responsible for tracking and guiding the progress of their task, but are not expected to be the sole contributor to this task. Shepherds are expected to typically only be tied to one task at a time, in order to keep all open tasks progressing, as well as to limit the number of tasks open at any given time.
 
@@ -182,5 +187,3 @@ Shepherds are typically members of a project team, and are expected to be respon
 Status updates are a regular check-in of the team with any shepherds actively working on a task. This update could take the form of a mailing list, chat meeting, video call, or in person meeting. These meetings should occur at a scheduled cadence (e.g. weekly, monthly), and they should be open to all contributors to the project.
 
 These updates are intended to give the team visibility on the progress of each task, and allow discussions whether the state of any task should be updated.
-
-
