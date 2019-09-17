@@ -16,6 +16,9 @@ To address these needs, I'd like to propose a general concept and approach calle
 
 The "Shepherding v3.1" name comes from a blog post written by Niko Matsakis titled [Shepherds 3.0], which also does an excellent job describing the motivations regarding these efforts. This post instead makes a few clarifications and additions to the 3.0 post, and aims to be a "reference manual" for the concept, defining terms and important goals, rather than discussing motivations.
 
+* [Discuss on Reddit](https://www.reddit.com/r/rust/comments/d5lp3n/shepherding_a_howto_for_rust_teams_and_projects/)
+* [Discuss on Twitter](https://twitter.com/bitshiftmask/status/1174028075027316738)
+
 [Shepherds 3.0]: http://smallcultfollowing.com/babysteps/blog/2019/09/11/aic-shepherds-3-0/
 
 <!-- more -->
