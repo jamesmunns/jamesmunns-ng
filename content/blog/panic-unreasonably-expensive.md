@@ -7,3 +7,7 @@ template = "blog_post.html"
 +++
 
 Initial content
+
+<!-- more -->
+
+After the break
