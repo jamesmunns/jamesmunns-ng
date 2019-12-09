@@ -10,10 +10,14 @@ As a (late) part of the [#rust2020] request, I wanted to talk about one of the p
 
 The size costs of formatting in Rust today are unreasonably expensive for users of Rust on bare metal embedded systems.
 
-In particular there are two root problems I can see:
+In particular there are two root issues I can see:
 
 1. Out of the box formatting machinery, including `format!()`, `write!()`, and `panic!()` in Rust is not program space efficient
 2. More problematically, there is no way to change or opt-out of this cost, and it can show up in unexpected places that are outside of developer control
+
+**To be clear:** I *don't* think that these issues are a failing of the language, but rather a sign of growth. The current formatting solution has managed to work without issue for most people (and is still okay-ish in edge cases like embedded) for the better part of 4 years. However as we push Rust to more use cases, the language will need to adapt if it would like to fill into these spaces.
+
+This post aims to illuminate the challenges faced today, and attempt to draw an attainable set of paths moving forward.
 
 [#rust2020]: https://twitter.com/hashtag/rust2020
 
