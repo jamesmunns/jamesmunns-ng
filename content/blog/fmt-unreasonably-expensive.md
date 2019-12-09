@@ -374,9 +374,9 @@ However, this doesn't help with normal formatting cases, and forces the user to 
 
 ### Manually avoiding formatting, unwraps, etc.
 
-A user could carefully avoid the use of formatting and ensure that they don't use unwrap (as we have done here), however this puts a lot of manual review work on the end developer. Tools like [`never-panic`] can help automate the discovery of these problems, but not assist in fixing them.
+A user could carefully avoid the use of formatting and ensure that they don't use unwrap (as we have done here), however this puts a lot of manual review work on the end developer. Tools like [`panic-never`] can help automate the discovery of these problems, but not assist in fixing them.
 
-[`never-panic`]: https://github.com/japaric/panic-never
+[`panic-never`]: https://github.com/japaric/panic-never
 
 Furthermore, `unwrap`s or `panic`s could exist in code provided by another crate, making it difficult to patch directly without waiting for a PR to land, or maintaining a fork of the project.
 
