@@ -354,7 +354,7 @@ For a total summary of code sizes:
 ```text
    text    data     bss     dec     hex example
   =====    ====     ===   =====    ==== =======
-   1176       0       4    1180     49c panic-persist
+   1176       0       4    1180     49c panic-reset
    4708       0       4    4712    1268 without context
    4864       0       4    4868    1304 with context
   14512       0       4   14516    38b4 original with unwrap
