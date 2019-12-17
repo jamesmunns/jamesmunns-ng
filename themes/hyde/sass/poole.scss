@@ -305,6 +305,9 @@ tbody tr:nth-child(odd) th {
 .post {
   margin-bottom: 4em;
 }
+.post a {
+  text-decoration: underline;
+}
 
 /* Blog post or page title */
 .page-title,
@@ -315,6 +318,9 @@ tbody tr:nth-child(odd) th {
 .page-title,
 .post-title {
   margin-top: 0;
+}
+.post-title a {
+  text-decoration: none;
 }
 
 /* Meta data line below post title */
