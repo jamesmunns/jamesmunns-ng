@@ -5,9 +5,9 @@ pubkey = "3IRBk2Wonb47g38twksigss7rWuJWA/Jc6FWof5IxyI="
 friends = []
 
 [identities]
-website = "https://jamesmunns.com"
-twitter = "bitshiftmask"
 email = "james.munns@ferrous-systems.com"
+twitter = "bitshiftmask"
+website = "https://jamesmunns.com"
 FRAUTH-SIGNATURE
-OBKgGksUHW2FGEgLKRJrNh0uBv5TEYM8+0Z7GujPuvO7kTcbkx+67TSaCP/BvjLthz9BvkinzIp/EECUhueaBw==
+JXPzmciaw31EL0QxBIsNwDc84IvIFP+fQjnZWpsnboFpE+SAGzQPyL+dzUMTMI9Ufq0GzE9UbXCCDYftRfGlAQ==
 FRAUTH-ENDOFFILE
