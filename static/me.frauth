@@ -1,13 +1,16 @@
 FRAUTH-CONTENTS
 name = "James Munns"
-status = "Hello, world!"
-pubkey = "3IRBk2Wonb47g38twksigss7rWuJWA/Jc6FWof5IxyI="
-friends = []
+status = "Let me know if you're using Frauth!"
+pubkey = "uOoY1GxJve4AqGoioN6edJcWNrqz0orWPhY/TP/HfAQ="
+
+[[friends]]
+uri = "https://koenraadverheyden.com/static/me.frauth"
+pubkey = "cX9vSCISpznqLp2EXlzUv+V/CQ5+ikYCnPB5W8csLUs="
 
 [identities]
 email = "james.munns@ferrous-systems.com"
 twitter = "bitshiftmask"
 website = "https://jamesmunns.com"
 FRAUTH-SIGNATURE
-JXPzmciaw31EL0QxBIsNwDc84IvIFP+fQjnZWpsnboFpE+SAGzQPyL+dzUMTMI9Ufq0GzE9UbXCCDYftRfGlAQ==
+ZTDP37YUHFoioXaSJeb3RZkbgV53T0BbQYtA8j41Dz/a/C95t/cbpdxzHUFZpzze/d1KFAakESSpfBuFtieMCg==
 FRAUTH-ENDOFFILE
