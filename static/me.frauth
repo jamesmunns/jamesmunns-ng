@@ -2,7 +2,7 @@ FRAUTH-CONTENTS
 name = "James Munns"
 status = "Let me know if you're using Frauth!"
 pubkey = "uOoY1GxJve4AqGoioN6edJcWNrqz0orWPhY/TP/HfAQ="
-last_updated = "2020-01-18T13:30:11.271884693Z"
+last_updated = "2020-01-19T14:50:23.801016199Z"
 
 [[friends]]
 uri = "https://darewell.de/me.frauth"
@@ -16,10 +16,14 @@ pubkey = "cX9vSCISpznqLp2EXlzUv+V/CQ5+ikYCnPB5W8csLUs="
 uri = "https://mckeogh.tech/me.frauth"
 pubkey = "jW8UACYFq3CxwfUtpl6P7NWsaeZBNhaJr03fCzFK3pI="
 
+[[friends]]
+uri = "https://rediger.net/janerik.frauth"
+pubkey = "p5SsdPs6RPMdQxkYXe06gdX/OtJ3gAey/kYkvzwaL3g="
+
 [identities]
 email = "james.munns@ferrous-systems.com"
 twitter = "bitshiftmask"
 website = "https://jamesmunns.com"
 FRAUTH-SIGNATURE
-M59nbS6rc5rtSda0ueHd6e+tWlG7yCl9wscGJpg8mLirL/7rfXD+GPMhcN+9+oBmfA1CXMwpSnlaqhRuQTYTDg==
+gS/nqA6JFaM1eKWZnFiUYTq5hQ1t9h3ZyIj06DyzPYIs9I1y+fmgSwOCA7ydxX0zyRTw/eNrhV4QOh/ok8p4Cw==
 FRAUTH-ENDOFFILE
