@@ -6,13 +6,15 @@ in_search_index = true
 template = "blog_post.html"
 +++
 
-> Last updated: 2020-04-10
+**Last updated: 2020-04-10**
 
 In case of an emergency, I would like to have the people I trust to be able to access my list of accounts and passwords. This is intended for cases where I am incapacitated in some way, temporarily or permanently.
 
 Rather than sharing my password(s) with any one emergency contact, this is a process that requires multiple people to work together to gain access, preventing any one person from gaining access to my information on-demand.
 
 Your threat model may vary. This is meant only to share what I did, not necessarily be a specific guide for all use cases.
+
+<!-- more -->
 
 ## Glossary
 
