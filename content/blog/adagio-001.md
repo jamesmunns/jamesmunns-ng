@@ -22,7 +22,7 @@ It was enough to send a text, send a command, or receive some sensor readings, b
 
 But you could send programs. You could spend days carefully packing each instruction down into the tiniest message possible, and feed it across the solar system, one heart beat at a time. The robot would come to life, following instructions until it finished the job, or until it was given something new to do.
 
-If everything went well, her robot would come to life, leave the synchronization station, and would join the the cloud of idle robots in a lazy orbit of Neptune. If everything went well, she would need to come up with a name for her robot. She would need to figure out what to make it do. If everything went well.
+If everything went well, her robot would come to life, leave the synchronization station, and would join the cloud of idle robots in a lazy orbit of Neptune. If everything went well, she would need to come up with a name for her robot. She would need to figure out what to make it do. If everything went well.
 
 If it didn't, she'd have to wait for the next drawing for a machine. She wasn't ready to wait two more years for another chance.
 
