@@ -1,5 +1,5 @@
 +++
-title = "Anachro-PC - The anachronistic Personal Computerb"
+title = "Anachro-PC - The Anachronistic Personal Computer"
 date = 2020-07-30
 draft = false
 in_search_index = true
@@ -15,6 +15,8 @@ If I build this, it will almost certainly be done in Rust. I do hope to specify 
 I currently am working on other projects, but I feel like this would be a fun project to stream, or maybe even write a book about learning embedded systems, or learning Rust with embedded systems?
 
 **If you'd be interested in taking a class building/using a system like this, or supporting patreon/GH sponsors style for me to do this, [send me a message](mailto:james.munns@ferrous-systems.com).**
+
+<!-- more -->
 
 ## Project Goals
 
