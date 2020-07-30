@@ -94,12 +94,13 @@ Example (psuedocode):
 // Components are also assigned a UUID on boot. This Component has
 // the own-address of 9ea8b6a7-2967-4db8-98b8-d4577548ed04.
 
-// Data can be stored to the Arbitrator memory space. Data can then be referenced
-// as inter-device storage using UUIDs as a reference. Data is allocated on a FIFO
-// basis, with oldest memory items becoming dropped.
+// Data can be stored to the Arbitrator memory space. Data can then be
+// referenced as inter-device storage using UUIDs as a reference. Data
+// is allocated on a FIFO basis, with oldest memory items becoming
+// dropped.
 //
-// The arbitrator may choose to limit the rate, maximum size or other parameters of
-// creating memory items based on configuration.
+// The arbitrator may choose to limit the rate, maximum size or other
+// parameters of creating memory items based on configuration.
 CREATE(
     // number of bytes to write, can be set to zero for dynamic
     // length using something like COBS or when the Request
@@ -117,9 +118,9 @@ CREATE(
 // The following UUID is returned to the Component on success
 -> Result<3b2fd5d1-ae16-46af-afc1-f60241d0a5b6, CreateError>
 
-// You can send data by reference to another component you know's mailbox.
-// Mailboxes are provided as a Component's address. Mailboxes are a FIFO queue
-// of UUIDs that can be loaded by that Component
+// You can send data by reference to another component you know's
+// mailbox. Mailboxes are provided as a Component's address. Mailboxes
+// are a FIFO queue of UUIDs that can be loaded by that Component
 SEND_MAILBOX(
     // The data reference to send
     3b2fd5d1-ae16-46af-afc1-f60241d0a5b6,
@@ -128,31 +129,32 @@ SEND_MAILBOX(
     56c3dbda-c762-4107-be58-855dc8e5aa92,
 )
 
-// The other device can receive messages on a FIFO basis, and can view the
-// item at the top of the stack without removing it
+// The other device can receive messages on a FIFO basis, and can view
+// the item at the top of the stack without removing it
 PEEK_MAILBOX(
-    // You can provide Some(usize) as a max message size, or None for any
-    // message size. Messages larger than the usize value will instead return
-    // an Error
+    // You can provide Some(usize) as a max message size, or None for
+    // anymessage size. Messages larger than the usize value will
+    // instead return an Error
     Some(32),
 )
 -> Result<(13, "Hello, world!"), GetError>
 
-// The other device can receive messages on a FIFO basis, and can view and
-// remove the item at the top of the stack. If the Controller ends the message
-// before all bytes are received, the item is still removed from the FIFO. This
-// can be used to simply drop the item on the top of the FIFO.
+// The other device can receive messages on a FIFO basis, and can view
+// and remove the item at the top of the stack. If the Controller
+// ends the message before all bytes are received, the item is still
+// removed from the FIFO. Thiscan be used to simply drop the item on
+// the top of the FIFO.
 POP_MAILBOX(
-    // You can provide Some(usize) as a max message size, or None for any
-    // message size. Messages larger than the usize value will instead return
-    // an Error
+    // You can provide Some(usize) as a max message size, or None for
+    // any message size. Messages larger than the usize value will
+    // instead return an Error
     Some(32),
 )
 -> Result<(13, "Hello, world!"), GetError>
 
-// TODO: How to have a "clone and modify" operation that isn't hard because of
-// re-allocs? Insertions would suck unless I used some kind of rope structure,
-// which might be too complex to implement
+// TODO: How to have a "clone and modify" operation that isn't hard
+// because of re-allocs? Insertions would suck unless I used some kind
+//  of rope structure, which might be too complex to implement
 ```
 
 You can also use the SPI interface for certain communications directly to the arbitrator
@@ -172,12 +174,12 @@ GET_OWN_ID()
 // Get limits of the arbitrator interface
 GET_ARBITRATOR_LIMITS()
 -> {
-    min_speed_hz: 125_000,       // What is the minimum SPI clock rate?
-    max_speed_hz: 8_000_000,     // What is the maximum SPI clock rate?
-    exp_polls_per_sec: 100,      // What is the expected poll frequency?
-    request_line_shared: false,  // Is the request line open drain?
-    total_memory: 524288,        // 512KiB
-    max_files: 512,              // Max number of records alive at once
+    min_speed_hz: 125_000,     // What is the minimum SPI clock rate?
+    max_speed_hz: 8_000_000,   // What is the maximum SPI clock rate?
+    exp_polls_per_sec: 100,    // What is the expected poll frequency?
+    request_line_shared: false,// Is the request line open drain?
+    total_memory: 524288,      // 512KiB
+    max_files: 512,            // Max number of records alive at once
 }
 
 // Get limits for message creation
