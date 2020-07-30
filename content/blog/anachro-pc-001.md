@@ -6,7 +6,7 @@ in_search_index = true
 template = "blog_post.html"
 +++
 
-> TL;DR - These are my notes for a potential computer hobbyist personal computer architecture.
+> TL;DR - These are my notes for a potential computer hobbyist personal computer architecture. Someone called it "Minix for motherboards".
 
 This roughly describes an architecture of off the shelf microcontroller components that can be used to create a basic standalone PC, somewhere in the neighborhood of performance of an old 286/386 DOS style PC.
 
