@@ -1,0 +1,36 @@
+{% extends "base_layout.html" %}
+
+{% block content %}
+    <h1>Chats With James Podcast Episodes</h1>
+
+    <p>Chats with James is a podcast covering a wide variety of topics. It is currently in early preview. New episodes are released every Tuesday.</p>
+
+    <p>I'll provide XML/RSS feeds for episodes in FLAC, M4A, and MP3 formats in the near future.</p>
+
+    <h2>Podcast Episodes</h2>
+    <hr>
+
+    <div class="posts">
+        {% for page in paginator.pages %}
+          <div class="post">
+            <h1 class="post-title">
+              <a href="{{ page.permalink }}">
+                {{ page.title }}
+              </a>
+            </h1>
+            <span class="post-date">{{ page.date | date(format="%Y-%m-%d") }}</span>
+            <hr>
+            {{ page.summary | safe }}
+            <b>
+              <a href="{{ page.permalink }}">
+                ...read more
+              </a>
+            </b>
+          </div>
+        {% endfor %}
+    {% if paginator.previous %}<a href="{{ paginator.previous }}"><b>< < Back</b>{% endif %}
+    {% if paginator.next and paginator.previous %}|{% endif %}
+    {% if paginator.next %}<a href="{{ paginator.next }}"><b>Next > ></b>{% endif %}
+    </div>
+{% endblock content %}
+
