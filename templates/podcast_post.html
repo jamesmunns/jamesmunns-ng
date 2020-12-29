@@ -1,0 +1,26 @@
+{% extends "base_layout.html" %}
+
+<!-- Twitter Card Support - Blog Post Override -->
+{% block twitter_meta %}
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@bitshiftmask" />
+  <meta name="twitter:title" content="Chats with James {{ page.title }}" />
+  <meta name="twitter:description" content="{{ page.summary | safe | striptags }}" />
+  <meta name="twitter:image" content="https://delivery.jamescdn.com/logo0.png" />
+
+{%endblock twitter_meta %}
+
+{% block content %}
+<div class="post">
+  <h1 class="post-title">{{ page.title }}</h1>
+  <span class="post-date">{{ page.date | date(format="%Y-%m-%d") }}</span>
+  <hr>
+  {{ page.content | safe }}
+</div>
+
+    {% if page.previous %}<a href="{{ page.previous.permalink }}">Previous article</a>{% endif %}
+    {% if page.next and page.previous %}|{% endif %}
+    {% if page.next %}<a href="{{ page.next.permalink }}">Next article</a>{% endif %}
+
+{% endblock content %}
+

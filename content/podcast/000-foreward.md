@@ -6,7 +6,7 @@ draft = false
 # category = "rust"
 # aliases = ["update/2016/08/20/developing-reliable-embedded.html"]
 in_search_index = true
-template = "blog_post.html"
+template = "podcast_post.html"
 +++
 
 James introduces the **Chats with James** Podcast.
