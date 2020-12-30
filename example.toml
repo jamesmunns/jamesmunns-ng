@@ -1,0 +1,91 @@
+# Reference Material
+#
+# * https://www.podcast.co/create/podcast-rss-feeds
+
+title = "Chat with James Podcast"
+description = """
+Chats with James is a podcast covering a wide variety of topics.
+It is currently in early preview.
+New episodes are released every Tuesday.
+"""
+subtitle = "Chatting with James"
+website = "https://jamesmunns.com/podcast/"
+language = "en-us"
+copyright = "2020"
+webmaster = "contact@onevariable.com (James Munns)"
+managing-editor = "contact@onevariable.com (James Munns)"
+
+# TODO: Derive these from webmaster?
+author = "James Munns"
+author-email = "contact@onevariable.com"
+
+formats = [
+    # "flac",
+    # "mp3",
+    "m4a",
+]
+hosting-base-url = "https://delivery.jamescdn.com"
+explicit = false
+keywords = [
+    "rust",
+    "programming",
+    "technology"
+]
+
+# TODO - support subcategories?
+category = "Technology"
+
+[logo]
+url = "https://delivery.jamescdn.com/logo0.png"
+
+# TODO - default to podcast settings?
+title = "Chat with James Podcast"
+
+# TODO - default to podcast settings?
+link = "https://jamesmunns.com/podcast/"
+
+
+
+# TODO: These need to be outputs, not inputs
+#
+# <atom:link href="https://www.YourSite.com/feed.xml" rel="self" type="application/rss+xml" />
+# <pubDate>Fri, 05 Oct 2018 09:00:00 GMT</pubDate>
+# <lastBuildDate>Fri, 05 Oct 2018 09:00:00 GMT</lastBuildDate>
+
+[[episodes]]
+title = "001 - Lachezar Lechev"
+description = """
+James chats with Lachezar Lechev to discuss Rust in Avionics,
+drone simulation technologies, and burnout in software development.
+"""
+subtitle = "James chats with Lachezar Lechev"
+files = [
+    "2020-12-29-lachezar-lechev.m4a",
+    # "2020-12-29-lachezar-lechev.mp3",
+    # "2020-12-29-lachezar-lechev.flac",
+]
+duration = "00:00:00"
+publish-date = "Tue, 29 Dec 2020 19:00:00 GMT"
+keywords = [
+    "avionics",
+    "rust",
+    "programming",
+    "technology"
+]
+
+[[episodes]]
+title = "000 - Foreward"
+description = "James introduces the Chats with James Podcast."
+subtitle = "James introduces the Chats with James Podcast."
+files = [
+    # "2020-12-28-introduction.flac",
+    # "2020-12-28-introduction.mp3",
+    "2020-12-28-introduction.m4a",
+]
+duration = "00:00:00"
+publish-date = "Mon, 28 Dec 2020 19:00:00 GMT"
+keywords = [
+    "rust",
+    "programming",
+    "technology"
+]
