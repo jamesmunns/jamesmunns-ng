@@ -44,13 +44,25 @@ title = "Chat with James Podcast"
 # TODO - default to podcast settings?
 link = "https://jamesmunns.com/podcast/"
 
-
-
-# TODO: These need to be outputs, not inputs
-#
-# <atom:link href="https://www.YourSite.com/feed.xml" rel="self" type="application/rss+xml" />
-# <pubDate>Fri, 05 Oct 2018 09:00:00 GMT</pubDate>
-# <lastBuildDate>Fri, 05 Oct 2018 09:00:00 GMT</lastBuildDate>
+[[episodes]]
+title = "002 - Christopher Hunt"
+description = """
+James chats with Christopher Hunt to discuss programming languages,
+the cost of software abstraction, Bluetooth, and state machines.
+"""
+subtitle = "James chats with Christopher Hunt"
+files = [
+    "2021-01-05-christopher-hunt.m4a",
+    # "2021-01-05-christopher-hunt.mp3",
+    # "2021-01-05-christopher-hunt.flac",
+]
+duration = "01:11:47"
+publish-date = "Tue, 05 Jan 2021 16:00:00 GMT"
+keywords = [
+    "rust",
+    "programming",
+    "technology",
+]
 
 [[episodes]]
 title = "001 - Lachezar Lechev"
@@ -64,7 +76,7 @@ files = [
     # "2020-12-29-lachezar-lechev.mp3",
     # "2020-12-29-lachezar-lechev.flac",
 ]
-duration = "00:00:00"
+duration = "00:45:35"
 publish-date = "Tue, 29 Dec 2020 19:00:00 GMT"
 keywords = [
     "avionics",
@@ -82,7 +94,7 @@ files = [
     # "2020-12-28-introduction.mp3",
     "2020-12-28-introduction.m4a",
 ]
-duration = "00:00:00"
+duration = "00:01:13"
 publish-date = "Mon, 28 Dec 2020 19:00:00 GMT"
 keywords = [
     "rust",
