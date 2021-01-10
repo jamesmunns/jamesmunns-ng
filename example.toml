@@ -36,7 +36,7 @@ keywords = [
 category = "Technology"
 
 [logo]
-url = "https://delivery.jamescdn.com/logo0.png"
+url = "https://delivery.jamescdn.com/logo2.png"
 
 # TODO - default to podcast settings?
 title = "Chat with James Podcast"
@@ -46,6 +46,7 @@ link = "https://jamesmunns.com/podcast/"
 
 [[episodes]]
 title = "002 - Christopher Hunt"
+url = "https://jamesmunns.com/podcast/002-chris/"
 description = """
 James chats with Christopher Hunt to discuss programming languages,
 the cost of software abstraction, Bluetooth, and state machines.
@@ -66,6 +67,7 @@ keywords = [
 
 [[episodes]]
 title = "001 - Lachezar Lechev"
+url = "https://jamesmunns.com/podcast/001-lachezar/"
 description = """
 James chats with Lachezar Lechev to discuss Rust in Avionics,
 drone simulation technologies, and burnout in software development.
@@ -87,6 +89,7 @@ keywords = [
 
 [[episodes]]
 title = "000 - Foreward"
+url = "https://jamesmunns.com/podcast/000-foreward/"
 description = "James introduces the Chats with James Podcast."
 subtitle = "James introduces the Chats with James Podcast."
 files = [
