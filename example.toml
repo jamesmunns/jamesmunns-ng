@@ -20,8 +20,8 @@ author = "James Munns"
 author-email = "contact@onevariable.com"
 
 formats = [
-    # "flac",
-    # "mp3",
+    "flac",
+    "mp3",
     "m4a",
 ]
 hosting-base-url = "https://delivery.jamescdn.com"
@@ -53,8 +53,8 @@ the cost of software abstraction, Bluetooth, and state machines.
 subtitle = "James chats with Christopher Hunt"
 files = [
     "2021-01-05-christopher-hunt.m4a",
-    # "2021-01-05-christopher-hunt.mp3",
-    # "2021-01-05-christopher-hunt.flac",
+    "2021-01-05-christopher-hunt.mp3",
+    "2021-01-05-christopher-hunt.flac",
 ]
 duration = "01:11:47"
 publish-date = "Tue, 05 Jan 2021 16:00:00 GMT"
@@ -73,8 +73,8 @@ drone simulation technologies, and burnout in software development.
 subtitle = "James chats with Lachezar Lechev"
 files = [
     "2020-12-29-lachezar-lechev.m4a",
-    # "2020-12-29-lachezar-lechev.mp3",
-    # "2020-12-29-lachezar-lechev.flac",
+    "2020-12-29-lachezar-lechev.mp3",
+    "2020-12-29-lachezar-lechev.flac",
 ]
 duration = "00:45:35"
 publish-date = "Tue, 29 Dec 2020 19:00:00 GMT"
@@ -90,8 +90,8 @@ title = "000 - Foreward"
 description = "James introduces the Chats with James Podcast."
 subtitle = "James introduces the Chats with James Podcast."
 files = [
-    # "2020-12-28-introduction.flac",
-    # "2020-12-28-introduction.mp3",
+    "2020-12-28-introduction.flac",
+    "2020-12-28-introduction.mp3",
     "2020-12-28-introduction.m4a",
 ]
 duration = "00:01:13"
