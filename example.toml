@@ -44,6 +44,28 @@ title = "Chats with James Podcast"
 link = "https://jamesmunns.com/podcast/"
 
 [[episodes]]
+title = "003 - Michael Gattozzi"
+url = "https://jamesmunns.com/podcast/003-michael/"
+description = """
+James chats with Michael Gattozzi to discuss developer tooling, message
+serialization, and undefined behavior in Rust.
+"""
+subtitle = "James chats with Michael Gattozzi"
+files = [
+    "2021-01-12-michael-gattozzi.m4a",
+    "2021-01-12-michael-gattozzi.mp3",
+    "2021-01-12-michael-gattozzi.flac",
+]
+duration = "01:11:28"
+publish-date = "Tue, 12 Jan 2021 12:00:00 GMT"
+keywords = [
+    "rust",
+    "programming",
+    "technology",
+    "serialization",
+]
+
+[[episodes]]
 title = "002 - Christopher Hunt"
 url = "https://jamesmunns.com/podcast/002-chris/"
 description = """
