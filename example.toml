@@ -2,7 +2,7 @@
 #
 # * https://www.podcast.co/create/podcast-rss-feeds
 
-title = "Chat with James Podcast"
+title = "Chats with James Podcast"
 description = """
 Chats with James is a podcast covering a wide variety of topics.
 It is currently in early preview.
@@ -15,7 +15,6 @@ copyright = "2020"
 webmaster = "contact@onevariable.com (James Munns)"
 managing-editor = "contact@onevariable.com (James Munns)"
 
-# TODO: Derive these from webmaster?
 author = "James Munns"
 author-email = "contact@onevariable.com"
 
@@ -39,7 +38,7 @@ category = "Technology"
 url = "https://delivery.jamescdn.com/logo2.png"
 
 # TODO - default to podcast settings?
-title = "Chat with James Podcast"
+title = "Chats with James Podcast"
 
 # TODO - default to podcast settings?
 link = "https://jamesmunns.com/podcast/"
