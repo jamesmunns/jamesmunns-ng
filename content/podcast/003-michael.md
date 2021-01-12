@@ -1,6 +1,6 @@
 +++
 title = "003 - Michael Gattozzi"
-date = 2021-01-12T16:00:00+02:00
+date = 2021-01-12T06:00:00+02:00
 draft = false
 in_search_index = true
 template = "podcast_post.html"
