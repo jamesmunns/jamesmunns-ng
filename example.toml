@@ -4,11 +4,16 @@
 
 title = "Chats with James Podcast"
 description = """
-Chats with James is a podcast covering a wide variety of topics.
-It is currently in early preview.
+Chats with James is a podcast discussing everything \
+that James or his guests are passionate about.
+
+Embedded Systems, the Rust Programming Language, and \
+a variety of other technical topics are the most common \
+discussed items.
+
 New episodes are released every Tuesday.
 """
-subtitle = "Chatting with James"
+subtitle = "James Munns talks to guests about things they are passionate about"
 website = "https://jamesmunns.com/podcast/"
 language = "en-us"
 copyright = "2020"
@@ -36,18 +41,14 @@ category = "Technology"
 
 [logo]
 url = "https://delivery.jamescdn.com/logo2.png"
-
-# TODO - default to podcast settings?
 title = "Chats with James Podcast"
-
-# TODO - default to podcast settings?
 link = "https://jamesmunns.com/podcast/"
 
 [[episodes]]
 title = "003 - Michael Gattozzi"
 url = "https://jamesmunns.com/podcast/003-michael/"
 description = """
-James chats with Michael Gattozzi to discuss developer tooling, message
+James chats with Michael Gattozzi to discuss developer tooling, message \
 serialization, and undefined behavior in Rust.
 """
 subtitle = "James chats with Michael Gattozzi"
@@ -57,7 +58,7 @@ files = [
     "2021-01-12-michael-gattozzi.flac",
 ]
 duration = "01:11:28"
-publish-date = "Tue, 12 Jan 2021 12:00:00 GMT"
+publish-date = "Tue, 12 Jan 2021 06:00:00 GMT"
 keywords = [
     "rust",
     "programming",
@@ -69,7 +70,7 @@ keywords = [
 title = "002 - Christopher Hunt"
 url = "https://jamesmunns.com/podcast/002-chris/"
 description = """
-James chats with Christopher Hunt to discuss programming languages,
+James chats with Christopher Hunt to discuss programming languages, \
 the cost of software abstraction, Bluetooth, and state machines.
 """
 subtitle = "James chats with Christopher Hunt"
@@ -90,7 +91,7 @@ keywords = [
 title = "001 - Lachezar Lechev"
 url = "https://jamesmunns.com/podcast/001-lachezar/"
 description = """
-James chats with Lachezar Lechev to discuss Rust in Avionics,
+James chats with Lachezar Lechev to discuss Rust in Avionics, \
 drone simulation technologies, and burnout in software development.
 """
 subtitle = "James chats with Lachezar Lechev"
