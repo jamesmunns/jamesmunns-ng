@@ -1,11 +1,11 @@
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunesu="http://www.itunesu.com/feed"><channel><title>Chats with James Podcast</title><link>https://jamesmunns.com/podcast/</link><description>Chats with James is a podcast discussing everything that James or his guests are passionate about.
+<rss version="2.0" xmlns:itunesu="http://www.itunesu.com/feed" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Chats with James Podcast</title><link>https://jamesmunns.com/podcast/</link><description>Chats with James is a podcast discussing everything that James or his guests are passionate about.
 
-Embedded Systems, the Rust Programming Language, and a variety of other technical topics are the most common discussed items.
+Embedded Systems, the Rust Programming Language, and a variety of other technical topics are the most commonly discussed items.
 
 New episodes are released every Tuesday.
 </description><language>en-us</language><copyright>2020</copyright><managingEditor>contact@onevariable.com (James Munns)</managingEditor><webMaster>contact@onevariable.com (James Munns)</webMaster><pubDate></pubDate><lastBuildDate></lastBuildDate><generator>pfg-rs</generator><image><url>https://delivery.jamescdn.com/logo2.png</url><title>Chats with James Podcast Logo</title><link>https://jamesmunns.com/podcast/</link></image><itunes:author>James Munns</itunes:author><itunes:category text="Technology"></itunes:category><itunes:image href="https://delivery.jamescdn.com/logo2.png"/><itunes:explicit>Clean</itunes:explicit><itunes:owner><itunes:name>James Munns</itunes:name><itunes:email>contact@onevariable.com</itunes:email></itunes:owner><itunes:subtitle>James Munns talks to guests about things they are passionate about</itunes:subtitle><itunes:summary>Chats with James is a podcast discussing everything that James or his guests are passionate about.
 
-Embedded Systems, the Rust Programming Language, and a variety of other technical topics are the most common discussed items.
+Embedded Systems, the Rust Programming Language, and a variety of other technical topics are the most commonly discussed items.
 
 New episodes are released every Tuesday.
 </itunes:summary><itunes:keywords>rust, programming, technology</itunes:keywords><item><title>003 - Michael Gattozzi</title><link>https://jamesmunns.com/podcast/003-michael/</link><description><![CDATA[James chats with Michael Gattozzi to discuss developer tooling, message serialization, and undefined behavior in Rust.
