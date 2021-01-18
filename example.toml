@@ -45,6 +45,31 @@ title = "Chats with James Podcast"
 link = "https://jamesmunns.com/podcast/"
 
 [[episodes]]
+title = "004 - François Baldassari"
+url = "https://jamesmunns.com/podcast/004-francois/"
+description = """
+James chats with François Baldassari to discuss embedded systems, \
+engineering practices (and where the industry is lacking), and the \
+social side of improving the skills of embedded systems teams.
+"""
+subtitle = "James chats with François Baldassari of Memfault"
+files = [
+    "2021-01-19-francois-baldassari.m4a",
+    "2021-01-19-francois-baldassari.mp3",
+    "2021-01-19-francois-baldassari.flac",
+]
+duration = "00:48:36"
+publish-date = "Tue, 19 Jan 2021 06:00:00 GMT"
+keywords = [
+    "programming",
+    "technology",
+    "embedded",
+    "embedded systems",
+    "software quality",
+    "engineering",
+]
+
+[[episodes]]
 title = "003 - Michael Gattozzi"
 url = "https://jamesmunns.com/podcast/003-michael/"
 description = """
