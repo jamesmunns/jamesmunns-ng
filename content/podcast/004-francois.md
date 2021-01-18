@@ -64,7 +64,7 @@ James chats with [François Baldassari](https://twitter.com/baldassarifr) to dis
     * Bitmap images
     * Fonts
 * [SDK (pebble)](https://developer.rebble.io/developer.pebble.com/docs/index.html)
-* [Hot loadable software(https://code-cartoons.com/hot-reloading-and-time-travel-debugging-what-are-they-3c8ed2812f35)
+* [Hot loadable software](https://code-cartoons.com/hot-reloading-and-time-travel-debugging-what-are-they-3c8ed2812f35)
 * [Sandboxing](https://en.wikipedia.org/wiki/Sandbox_(computer_security))
 * [Continuous Integration](https://en.wikipedia.org/wiki/Continuous_integration)
 * [Over the Air Updates (OTA)](https://en.wikipedia.org/wiki/Over-the-air_programming)
