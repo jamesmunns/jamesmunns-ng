@@ -49,7 +49,6 @@ James chats with [François Baldassari](https://twitter.com/baldassarifr) to dis
 
 * François on Social Media
     * [Twitter](https://twitter.com/baldassarifr)
-
 * [Memfault](https://memfault.com/)
 * [Sun Microsystems](https://en.wikipedia.org/wiki/Sun_Microsystems)
 * [Pebble](https://en.wikipedia.org/wiki/Pebble_(watch))
