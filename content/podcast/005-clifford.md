@@ -10,6 +10,8 @@ James chats with [Clifford Heath](https://twitter.com/cliffordheath) to discuss 
 
 **Originally Recorded on 2020-12-27.**
 
+<!-- more -->
+
 ## Audio
 
 **FLAC**
