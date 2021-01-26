@@ -45,6 +45,31 @@ title = "Chats with James Podcast"
 link = "https://jamesmunns.com/podcast/"
 
 [[episodes]]
+title = "005 - Clifford Heath"
+url = "https://jamesmunns.com/podcast/005-clifford/"
+description = """
+James chats with Clifford Heath to \
+discuss the differences between procedural and structural code, using \
+natural language processing to describe software, code generation, \
+and programming education approaches.
+"""
+subtitle = "James chats with Clifford Heath"
+files = [
+    "2021-01-26-clifford-heath.m4a",
+    "2021-01-26-clifford-heath.mp3",
+    "2021-01-26-clifford-heath.flac",
+]
+duration = "01:04:45"
+publish-date = "Tue, 26 Jan 2021 14:00:00 GMT"
+keywords = [
+    "programming",
+    "technology",
+    "engineering",
+    "schemas",
+    "natural language",
+]
+
+[[episodes]]
 title = "004 - François Baldassari"
 url = "https://jamesmunns.com/podcast/004-francois/"
 description = """
