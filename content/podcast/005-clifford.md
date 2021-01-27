@@ -51,7 +51,7 @@ James chats with [Clifford Heath](https://twitter.com/cliffordheath) to discuss 
 * Clifford on the Internet
     * [Twitter](https://twitter.com/cliffordheath)
     * [Website](http://dataconstellation.com/)
-    * [GitHub](https://github.com/cjheath/adl)
+    * [GitHub](https://github.com/cjheath)
 * "Full of [skite](https://en.wiktionary.org/wiki/skite#Verb)"
 * [Open Software Associates](http://dataconstellation.com/about/clifford_heath.html) - Australia's first `.com.au` address
 * [OpenUI development system](http://apc-online.com/twa/communications2.html#Innovation014)
