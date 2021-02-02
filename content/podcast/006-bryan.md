@@ -88,7 +88,7 @@ James chats with [Bryan Cantrill](https://twitter.com/bcantrill) of Oxide Comput
 * [FPGAs - Field-programmable gate arrays](https://en.wikipedia.org/wiki/Field-programmable_gate_array)
 * [RISC-V](https://en.wikipedia.org/wiki/RISC-V)
 * [Silicon Wafer](https://en.wikipedia.org/wiki/Wafer_(electronics))
-* [Open Shittle Program](https://efabless.com/open_shuttle_program) for open source silicon hardware designs, sponsored by Google
+* [Open Shuttle Program](https://efabless.com/open_shuttle_program) for open source silicon hardware designs, sponsored by Google
 * [Lattice Semiconductor](https://www.latticesemi.com/), manufacturer of [iCE40](https://www.latticesemi.com/en/Products/FPGAandCPLD/iCE40) and [ECP5](https://www.latticesemi.com/en/Products/FPGAandCPLD/ECP5) FPGAs
 * [OpenEDA](https://github.com/parallella/openeda)
 * [bluespec](https://bluespec.com/)
