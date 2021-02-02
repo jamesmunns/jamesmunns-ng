@@ -45,6 +45,32 @@ title = "Chats with James Podcast"
 link = "https://jamesmunns.com/podcast/"
 
 [[episodes]]
+title = "006 - Bryan Cantrill"
+url = "https://jamesmunns.com/podcast/006-bryan/"
+description = """
+James chats with Bryan Cantrill of Oxide Computer to discuss the \
+open source hardware explosion, Oxide's experience with Embedded Rust, \
+the importance of a culture of sharing knowledge, and the joy of fixing \
+hard-to-diagnose systems problems.
+"""
+subtitle = "James chats with Bryan Cantrill of Oxide Computer Company"
+files = [
+    "2021-02-02-bryan-cantrill.m4a",
+    "2021-02-02-bryan-cantrill.mp3",
+    "2021-02-02-bryan-cantrill.flac",
+]
+duration = "01:24:22"
+publish-date = "Tue, 02 Feb 2021 16:00:00 GMT"
+keywords = [
+    "programming",
+    "technology",
+    "engineering",
+    "Rust",
+    "systems engineering",
+    "open source",
+]
+
+[[episodes]]
 title = "005 - Clifford Heath"
 url = "https://jamesmunns.com/podcast/005-clifford/"
 description = """
