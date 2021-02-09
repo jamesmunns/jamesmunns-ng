@@ -45,6 +45,32 @@ title = "Chats with James Podcast"
 link = "https://jamesmunns.com/podcast/"
 
 [[episodes]]
+title = "007 - Michael Nitschinger"
+url = "https://jamesmunns.com/podcast/007-michael/"
+description = """
+James chats with Michael Nitschinger of Couchbase to discuss Coffee \
+Machines, PID control loops, Bluetooth Low Energy, and Databases.
+"""
+subtitle = "James chats with Michael Nitschinger of Couchbase"
+files = [
+    "2021-02-09-michael-nitschinger.m4a",
+    "2021-02-09-michael-nitschinger.mp3",
+    "2021-02-09-michael-nitschinger.flac",
+]
+duration = "00:53:08"
+publish-date = "Tue, 09 Feb 2021 11:00:00 GMT"
+keywords = [
+    "programming",
+    "technology",
+    "engineering",
+    "Rust",
+    "coffee",
+    "espresso",
+    "control systems",
+    "databases",
+]
+
+[[episodes]]
 title = "006 - Bryan Cantrill"
 url = "https://jamesmunns.com/podcast/006-bryan/"
 description = """
