@@ -45,6 +45,30 @@ title = "Chats with James Podcast"
 link = "https://jamesmunns.com/podcast/"
 
 [[episodes]]
+title = "008 - Yoshua Wuyts"
+url = "https://jamesmunns.com/podcast/008-yosh/"
+description = """
+James chats with Yoshua Wuyts to discuss Control Theory in traditional software domains, the \
+possibilities of RISC-V, and open source hardware.
+"""
+subtitle = "James chats with Yoshua Wuyts of Couchbase"
+files = [
+    "2021-02-16-yoshua-wuyts.m4a",
+    "2021-02-16-yoshua-wuyts.mp3",
+    "2021-02-16-yoshua-wuyts.flac",
+]
+duration = "00:53:18"
+publish-date = "Tue, 16 Feb 2021 21:00:00 GMT"
+keywords = [
+    "programming",
+    "technology",
+    "engineering",
+    "Rust",
+    "control systems",
+    "risc-v",
+]
+
+[[episodes]]
 title = "007 - Michael Nitschinger"
 url = "https://jamesmunns.com/podcast/007-michael/"
 description = """
