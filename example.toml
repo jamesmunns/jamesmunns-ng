@@ -45,13 +45,38 @@ title = "Chats with James Podcast"
 link = "https://jamesmunns.com/podcast/"
 
 [[episodes]]
+title = "009 - Sylvan Morris"
+url = "https://jamesmunns.com/podcast/009-sylvan/"
+description = """
+James chats with Sylvan Morris about introducing Rust into a company, \
+working at an embedded startup, over the air bootloaders, and managing risk.
+"""
+subtitle = "James chats with Sylvan Morris"
+files = [
+    "2021-02-23-sylvan-morris.m4a",
+    "2021-02-23-sylvan-morris.mp3",
+    "2021-02-23-sylvan-morris.flac",
+]
+duration = "00:27:44"
+publish-date = "Tue, 23 Feb 2021 23:59:00 GMT"
+keywords = [
+    "programming",
+    "technology",
+    "engineering",
+    "Rust",
+    "risk",
+    "start-ups",
+    "embedded",
+]
+
+[[episodes]]
 title = "008 - Yoshua Wuyts"
 url = "https://jamesmunns.com/podcast/008-yosh/"
 description = """
 James chats with Yoshua Wuyts to discuss Control Theory in traditional software domains, the \
 possibilities of RISC-V, and open source hardware.
 """
-subtitle = "James chats with Yoshua Wuyts of Couchbase"
+subtitle = "James chats with Yoshua Wuyts"
 files = [
     "2021-02-16-yoshua-wuyts.m4a",
     "2021-02-16-yoshua-wuyts.mp3",
