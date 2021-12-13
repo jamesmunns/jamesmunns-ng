@@ -18,7 +18,7 @@ At the recent 2018 Rust All Hands, I met up with Katharina [@spacekookie], who w
 
 <!-- more -->
 
-> If you just want to see what the results were without more details, you can skip ahead to the [TL;DR](#tldr) at the end!
+> If you just want to see what the results were without more details, you can skip ahead to the **TL;DR** at the end!
 >
 > Also make sure you check out the [repository] for this post, as it has all steps as individual commits you can step through.
 >
