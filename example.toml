@@ -46,6 +46,29 @@ link = "https://jamesmunns.com/podcast/"
 
 
 [[episodes]]
+title = "011 - Eliza Weisman"
+url = "https://jamesmunns.com/podcast/011-eliza/"
+description = """
+James chats with Eliza about systems, systems of systems, operating \
+systems, java, java cards, what posix did wrong, and a ton of other \
+rust adjacent things.
+"""
+subtitle = "James chats with Eliza Weisman"
+files = [
+    "2022-04-12-eliza-weisman.mp3",
+    "2022-04-12-eliza-weisman.m4a",
+    "2022-04-12-eliza-weisman.flac",
+]
+duration = "01:59:44"
+publish-date = "Tue, 12 Apr 2021 22:00:00 GMT"
+keywords = [
+    "programming",
+    "technology",
+    "Rust",
+    "embedded",
+]
+
+[[episodes]]
 title = "010 - Dion Doktor"
 url = "https://jamesmunns.com/podcast/010-dion/"
 description = """
