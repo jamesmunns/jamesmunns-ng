@@ -41,6 +41,18 @@ I profiled this on my 64MHz Cortex-M4F CPU, and found it took an acceptable, but
 
 So instead, I decided to use a slightly different approach, using a phase accumulator, and fixed point math, and a pre-calculated 256-entry look up table.
 
+Generating the sine table was pretty straightforward, I ran this on my desktop, and copy and pasted the output into an array:
+
+```rust
+// Generate a 256 point sine look up table
+for i in 0..256 {
+    let val = 2.0 * core::f32::consts::PI * ((i as f32) / 256.0);
+    let val = (i16::MAX as f32) * val.sin();
+    print!("{}, ", val.round() as i16);
+}
+println!();
+```
+
 That code looked like this:
 
 ```rust
