@@ -1,5 +1,5 @@
 +++
-title = "A little Fixed Point Math"
+title = "A little fixed point math for embedded audio"
 date = 2022-04-26
 draft = false
 in_search_index = true
