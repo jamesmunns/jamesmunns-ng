@@ -21,7 +21,7 @@ In embedded Rust, the core library doesn't actually link in routines for things 
 This means that typically you have two choices to "provide" these operations:
 
 1. The [`libm`](https://docs.rs/libm) crate, which provides very accurate implementations of math operations like `sin`, but is often (relatively) slow, and the code size is (relatively) large, as these are fit for very low error rate calculations.
-2. The [`micromath`](https://docs.rs/micromath/), which provides reasonable approximations of many operations like `sin`, to some respectable precision (but less precise than `libm`).
+2. The [`micromath`](https://docs.rs/micromath/) crate, which provides reasonable approximations of many operations like `sin`, to some respectable precision (but less precise than `libm`).
 
 Since I knew I didn't need *crazy* accurate data, I didn't even try libm for this. My initial code using `micromath` looked like this, for generating my sine wave data:
 
