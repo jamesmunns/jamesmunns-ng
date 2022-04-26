@@ -29,7 +29,9 @@ Since I knew I didn't need *crazy* accurate data, I didn't even try libm for thi
 // Generate N samples, interleaving left and right i16 PCM samples
 for (i, dat) in idata.chunks_exact_mut(2).enumerate() {
     use micromath::F32Ext;
-    let value = (i as f32) * (2.0 * core::f32::consts::PI * 441.0) / 44100.0;
+    let mut value = (i as f32);
+    value *= (2.0 * core::f32::consts::PI * 441.0);
+    value /= 44100.0;
     let ival = (value.sin() * (i16::MAX as f32)) as i16;
     dat.iter_mut().for_each(|i| *i = ival);
 }
@@ -59,32 +61,35 @@ That code looked like this:
 // A pre-calculated Sine Look Up Table, or LUT.
 use crate::SINE_TABLE; // : [i16; 256];
 
-// We have a sample rate at 44.1kHz. Figure out how many samples it will take
-// to play a single loop of our sine wave. For example, at 441hz, it will take
-// 100 samples to "traverse" one whole sine wave.
+// We have a sample rate at 44.1kHz. Figure out how many samples it
+// will take to play a single loop of our sine wave. For example,
+// at 441hz, it will take 100 samples to "traverse" one
+// whole sine wave.
 let samp_per_cyc: f32 = 44100.0 / 441.0;
 
 // The increment is (how many items are in our look up table)
 // divided by (how long it takes to go through one look up table)
 let fincr = 256.0 / samp_per_cyc;
 
-// Convert this number to an i32, which we use as a fixed point decimal, basically
-// 8bits.24bits, where the 8 bits are which LUT position we are currently in, and
-// the 24 bits are like a "decimal" describing where we are between the LUT positions
+// Convert this number to an i32, which we use as a fixed point
+// decimal, basically 8bits.24bits, where the 8 bits are which LUT
+// position we are currently in, and the 24 bits are like a "decimal"
+// describing where we are between the LUT positions
 let incr: i32 = (((1 << 24) as f32) * fincr) as i32;
 
-// This calculation is based on the current "phase angle" of the sine table.
-// This works because we increment our progress through the 256 value in
-// our 8.24 fixed point number, and it will wrap around correctly whenever
-// we "overflow" (this is a good thing! our sine table is the same loop over
-// and over and over and...
+// This calculation is based on the current "phase angle" of the sine
+// table. This works because we increment our progress through the
+// 256 value in our 8.24 fixed point number, and it will wrap around
+// correctly whenever we "overflow" (this is a good thing! our sine
+// table is the same loop over and over and over and...)
 let mut cur_offset = 0i32;
 
 // generate the next N samples...
 idata.chunks_exact_mut(2).for_each(|i| {
     let val = cur_offset as u32;
 
-    // Mask off the top 8 bits. This tells us which LUT position we are in
+    // Mask off the top 8 bits. This tells us which LUT position
+    // we are in
     let idx_now = ((val >> 24) & 0xFF) as u8;
     // Add one (wrapping), to tell us what the NEXT LUT position is.
     let idx_nxt = idx_now.wrapping_add(1);
@@ -95,31 +100,34 @@ idata.chunks_exact_mut(2).for_each(|i| {
 
     // Distance to next value - perform 256 slot linear interpolation
 
-    // Here, I take the top 8 bits of the 24 bit "decimal" part of the number.
-    // This will be used to interpolate one of 256 positions between the two
-    // LUT positions. This is to reduce error between the "steps" of each LUT
+    // Here, I take the top 8 bits of the 24 bit "decimal" part of
+    // the number. This will be used to interpolate one of
+    // 256 positions between the two LUT positions.
+    //
+    // This is to reduce error between the "steps" of each LUT
     // value in our table
     let off = ((val >> 16) & 0xFF) as i32; // 0..=255
 
-    // Here, we "weight" each sample based on how close we are at. We multiply
-    // this to a total of 256x larger than our original sample, split between
-    // how close we are between the two samples. We multiply each, then add them
-    // back together
+    // Here, we "weight" each sample based on how close we are at. We
+    // multiply this to a total of 256x larger than our original
+    // sample, split between how close we are between the two samples.
+    // We multiply each, then add them back together
     let cur_weight = base_val.wrapping_mul(256i32.wrapping_sub(off));
     let nxt_weight = next_val.wrapping_mul(off);
     let ttl_weight = cur_weight.wrapping_add(nxt_weight);
 
-    // Our number is now the weighted average of the two LUT samples, but 256x too big.
-    // Reduce it down with a right shift operation.
+    // Our number is now the weighted average of the two LUT samples,
+    // but 256x too big. Reduce it down with a right shift operation.
     let ttl_val = ttl_weight >> 8; // div 256
 
     // Un-sign-extend this back to an i16, to use as a sample
     let ttl_val = ttl_val as i16;
 
-    // Set the linearly interpolated value to the left and right channel
+    // Set the linearly interpolated value to the left and
+    // right channel
     i.iter_mut().for_each(|i| *i = ttl_val);
 
-    // Adjust our phase angle by the "increment" we calculated earlier.
+    // Adjust our phase angle by the "increment" we calculated earlier
     cur_offset = cur_offset.wrapping_add(incr);
 });
 ```
