@@ -112,6 +112,8 @@ idata.chunks_exact_mut(2).for_each(|i| {
 });
 ```
 
-When profiling this approach, My average loop time was now down to 22 cycles per iteration, meaning it would now only take me 970.2k CPU cycles per second, or 1.5% of my total CPU time!
+**When profiling this approach, My average loop time was now down to 22 cycles per iteration, meaning it would now only take me 970.2k CPU cycles per second, or 1.5% of my total CPU time!**
+
+I also checked my approximation against the "real" floating point sine operation, and found a maximum error of 0.012% for any `i16` value, which is more than close enough for my ears!
 
 There's no long term lesson here, I just wanted to share the technique I used, and explain it a little bit. These approaches are widely used in high performance audio equipment, but I hadn't found too many clear examples to use when writing my code.
