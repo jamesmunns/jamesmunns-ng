@@ -8,7 +8,7 @@ template = "blog_post.html"
 
 Recently, I wanted to generate some sounds for [MnemOS](./mnemos-initial-release.md), and I wanted it to go fast.
 
-This is a little mini-blog post describing how I did that.
+This is a little mini-blog post describing how I did that using fixed point math, and reduced the total CPU usage to about 20% of the original amount.
 
 <!-- more -->
 
