@@ -10,7 +10,7 @@ Quoting from the README:
 
 > Postcard is a #![no_std] focused serializer and deserializer for Serde. Postcard aims to be convenient for developers in constrained environments, while allowing for flexibility to customize behavior as needed.
 
-I first published [`postcard`] back in 2019, as a way to get "all the good stuff from [Serde]" in a format that would work for embedded systems. Now, 3 years later or so, it's about time to take it to v1.0. Since then, people all over Rust are using Postcard as a general purpose, [compact], and flexible Serde format, not just embedded folks!
+I first published [`postcard`] back in 2019, as a way to get "all the good stuff from [Serde]" in a format that would work for embedded systems. Since then, people all over Rust are using Postcard as a general purpose, [compact], and flexible Serde format, not just embedded folks! Now, 3 years later or so, it's about time to take it to v1.0.
 
 Thanks to a bunch of accumulated experience over the years, and a generous sponsor, I'll be releasing the 1.0 version of Postcard in June of 2022.
 
