@@ -57,7 +57,7 @@ The "Maybe" list includes, in order of my preference + possibility thoughts:
 ["Flavors"]: https://docs.rs/postcard/latest/postcard/#example---flavors
 [COBS encoding]: https://en.wikipedia.org/wiki/Consistent_Overhead_Byte_Stuffing
 [`vint64`]: https://crates.io/crates/vint64
-['LEB128']: https://en.wikipedia.org/wiki/LEB128
+[`LEB128`]: https://en.wikipedia.org/wiki/LEB128
 ["varint"]: https://developers.google.com/protocol-buffers/docs/encoding
 
 Outside of this list, but semi-related, I've been granted ownership of the [`cobs`] crate, and intend for it to reach 1.0 as well. Postcard has traditionally used a [fork of `cobs`], but these changes will be merged back "upstream".
