@@ -98,7 +98,7 @@ As postcard is largely based on the Serde crate, the majority of the specificati
 
 Although users can always implement custom versions of `Serialize` or `Deserialize` in their data models and formats, implementors are still limited within the bounds of using the 29 possible types, based on the APIs of the `Serializer` and `Deserializer` types.
 
-I don't plan to do anything particularly special for this, the specification will be captured in markdown, specifcally in an [mdBook]. Each unique element of the specification (or "requirement", using more formal terms) will have a unique and stable ID, allowing me to ensure that all requirements are implemented in the code covered by the regression test suite. This is a concept known as ["traceability"], in the safety-critical world. The specification will live in the main postcard repository, and will be published under the terms of the [CC-BY-SA 4.0 license].
+I don't plan to do anything particularly special for this, the specification will be captured in markdown, specifcally in an [mdBook]. Each unique element of the specification (or "requirement", using more formal terms) will have a unique and stable ID, allowing me to ensure that all requirements are implemented in the code, and covered by the regression test suite. This is a concept known as ["traceability"], in the safety-critical world. The specification will live in the main postcard repository, and will be published under the terms of the [CC-BY-SA 4.0 license].
 
 [CC-BY-SA 4.0 license]: https://creativecommons.org/licenses/by-sa/4.0/
 
