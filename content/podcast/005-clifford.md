@@ -97,7 +97,7 @@ James chats with [Clifford Heath](https://twitter.com/cliffordheath) to discuss 
 * [Bluetooth](https://en.wikipedia.org/wiki/Bluetooth)
 * [Bluetooth Core Specification](https://www.bluetooth.com/specifications/bluetooth-core-specification/)
 * [Serial over BLE](https://punchthrough.com/serial-over-ble/)
-* [NanoVNA](https://nanovna.com/)
+* [NanoVNA](https://github.com/ttrftech/NanoVNA)
 * [Software Defined Radio](https://en.wikipedia.org/wiki/Software-defined_radio)
 * [FFT](https://en.wikipedia.org/wiki/Fast_Fourier_transform)
 * [Aspect Definition Language (ADL)](https://github.com/cjheath/adl)
