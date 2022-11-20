@@ -22,7 +22,6 @@ Feel free to follow me on any of the following services:
 | **Twitter** | [twitter.com/bitshiftmask] | Deprecated |
 | **YouTube** | [James' Office Hours] | YouTube channel of programming and hardware streams |
 
-[join #anachro chat]: https://matrix.to/#/#anachro:matrix.org
 [James' Office Hours]: https://www.youtube.com/c/JamesOfficeHours
 [twitch.tv/jamesmunns]: https://www.twitch.tv/jamesmunns/
 [github.com/jamesmunns]: https://github.com/jamesmunns/
@@ -31,5 +30,5 @@ Feel free to follow me on any of the following services:
 [LinkedIn Profile]: https://www.linkedin.com/in/james-munns-8a42b429/
 [Send an Email]: mailto:james@onevariable.com
 [instagram.com/jamesmunns]: https://www.instagram.com/jamesmunns/
-[twitter.com/bitshiftmask]: twitter.com/bitshiftmask
+[twitter.com/bitshiftmask]: https://twitter.com/bitshiftmask
 [@jamesmunns:beeper.com]: https://matrix.to/#/@jamesmunns:beeper.com
