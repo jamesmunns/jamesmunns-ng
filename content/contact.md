@@ -1,10 +1,16 @@
 +++
-title = "Contact"
+title = "About + Contact"
 in_search_index = true
 template = "static_page.html"
 +++
 
-# James Around The Internet
+## Hey, I'm James. Thanks for looking!
+
+I'm a software engineer currently living in Berlin. I do a lot with Rust and Embedded Systems.
+
+Need help with that? You can [hire me](https://jamesmunns.com)!
+
+## James Around The Internet
 
 Feel free to follow me on any of the following services:
 
