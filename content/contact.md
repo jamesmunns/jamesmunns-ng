@@ -39,4 +39,4 @@ Feel free to follow me on any of the following services:
 [instagram.com/jamesmunns]: https://www.instagram.com/jamesmunns/
 [twitter.com/bitshiftmask]: https://twitter.com/bitshiftmask
 [@jamesmunns:beeper.com]: https://matrix.to/#/@jamesmunns:beeper.com
-[@jamesmunns.com]: https://staging.bsky.app/profile/jamesmunns.com
+[@jamesmunns.com]: https://bsky.app/profile/jamesmunns.com
