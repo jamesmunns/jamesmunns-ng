@@ -1,6 +1,6 @@
 +++
 title = "013 - Ryan Summers"
-date = 2023-08-21T20:00:00+02:00
+date = 2023-08-18T20:00:00+02:00
 draft = false
 in_search_index = true
 template = "podcast_post.html"
@@ -19,31 +19,31 @@ the guidelines of working in safety critical and embedded engineering.
 
 <audio
     controls
-    src="">
+    src="https://delivery.jamescdn.com/2023-08-18-ryan-summers.flac">
         Your browser does not support embedding FLAC
 </audio>
 
-[Download as FLAC]()
+[Download as FLAC](https://delivery.jamescdn.com/2023-08-18-ryan-summers.flac)
 
 ### M4A
 
 <audio
     controls
-    src=>
+    src="https://delivery.jamescdn.com/2023-08-18-ryan-summers.m4a">
         Your browser does not support embedding M4A.
 </audio>
 
-[Download as M4A]()
+[Download as M4A](https://delivery.jamescdn.com/2023-08-18-ryan-summers.m4a)
 
 ### MP3
 
 <audio
     controls
-    src="">
+    src="https://delivery.jamescdn.com/2023-08-18-ryan-summers.mp3">
         Your browser does not support embedding MP3.
 </audio>
 
-[Download as MP3]()
+[Download as MP3](https://delivery.jamescdn.com/2023-08-18-ryan-summers.mp3)
 
 
 ## Show Notes

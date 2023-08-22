@@ -45,6 +45,29 @@ title = "Chats with James Podcast"
 link = "https://jamesmunns.com/podcast/"
 
 [[episodes]]
+title = "013 - Ryan Summers"
+url = "https://jamesmunns.com/podcast/013-ryan/"
+description = """
+In this episode, James chats with Ryan Summers about the process of \
+developing protocols, the guidelines of working in safety critical \
+systems and embedded engineering.
+"""
+subtitle = "James chats with Ryan Summers"
+files = [
+    "2023-08-18-ryan-summers.mp3",
+    "2023-08-18-ryan-summers.m4a",
+    "2023-08-18-ryan-summers.flac",
+]
+duration = "01:20:28"
+publish-date = "Fri, 18 Aug 2023 20:00:00 GMT"
+keywords = [
+    "programming",
+    "technology",
+    "Rust",
+    "embedded",
+]
+
+[[episodes]]
 title = "012 - JT"
 url = "https://jamesmunns.com/podcast/012-JT/"
 description = """
