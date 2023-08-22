@@ -114,13 +114,13 @@ keywords = [
 ]
 
 [[episodes]]
-title = "010 - Dion Doktor"
+title = "010 - Dion Dokter"
 url = "https://jamesmunns.com/podcast/010-dion/"
 description = """
-James chats with Dion Doktor about device drivers, bootloaders, \
+James chats with Dion Dokter about device drivers, bootloaders, \
 and embedded Rust.
 """
-subtitle = "James chats with Dion Doktor"
+subtitle = "James chats with Dion Dokter"
 files = [
     "2021-03-02-dion-doktor.m4a",
     "2021-03-02-dion-doktor.mp3",

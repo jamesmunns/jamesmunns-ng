@@ -1,12 +1,12 @@
 +++
-title = "010 - Dion Doktor"
+title = "010 - Dion Dokter"
 date = 2021-03-02T20:00:00+02:00
 draft = false
 in_search_index = true
 template = "podcast_post.html"
 +++
 
-James chats with Dion Doktor about device drivers, bootloaders, and embedded Rust.
+James chats with Dion Dokter about device drivers, bootloaders, and embedded Rust.
 
 **Originally Recorded on 2020-12-29.**
 
