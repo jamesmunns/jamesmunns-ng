@@ -1,7 +1,7 @@
 +++
 title = "014 - Steve Klabnik"
-date = 
-draft = 
+date = 2023-09-29T20:00:00+02:00
+draft = false
 in_search_index = true
 template = "podcast_post.html"
 +++
@@ -22,7 +22,7 @@ This episode is coming from the archives, originally recorded in May 2022 - Jame
         Your browser does not support embedding FLAC
 </audio>
 
-[Download as FLAC]()
+[Download as FLAC](https://delivery.jamescdn.com/2023-09-29-steve-klabnik.flac)
 
 ### M4A
 
@@ -32,7 +32,7 @@ This episode is coming from the archives, originally recorded in May 2022 - Jame
         Your browser does not support embedding M4A.
 </audio>
 
-[Download as M4A]()
+[Download as M4A](https://delivery.jamescdn.com/2023-09-29-steve-klabnik.m4a)
 
 ### MP3
 
@@ -42,7 +42,7 @@ This episode is coming from the archives, originally recorded in May 2022 - Jame
         Your browser does not support embedding MP3.
 </audio>
 
-[Download as MP3]()
+[Download as MP3](https://delivery.jamescdn.com/2023-09-29-steve-klabnik.mp3)
 
 
 ## Show Notes
