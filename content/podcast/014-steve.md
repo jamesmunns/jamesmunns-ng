@@ -18,8 +18,8 @@ This episode is coming from the archives, originally recorded in May 2022 - Jame
 
 <audio
     controls
-    src="">
-        Your browser does not support embedding FLAC
+    src="https://delivery.jamescdn.com/2023-09-29-steve-klabnik.flac">
+        Your browser does not support embedding FLAC.
 </audio>
 
 [Download as FLAC](https://delivery.jamescdn.com/2023-09-29-steve-klabnik.flac)
@@ -28,7 +28,7 @@ This episode is coming from the archives, originally recorded in May 2022 - Jame
 
 <audio
     controls
-    src="">
+    src="https://delivery.jamescdn.com/2023-09-29-steve-klabnik.m4a">
         Your browser does not support embedding M4A.
 </audio>
 
@@ -38,7 +38,7 @@ This episode is coming from the archives, originally recorded in May 2022 - Jame
 
 <audio
     controls
-    src="">
+    src="https://delivery.jamescdn.com/2023-09-29-steve-klabnik.mp3">
         Your browser does not support embedding MP3.
 </audio>
 
