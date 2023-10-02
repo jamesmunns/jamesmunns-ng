@@ -45,6 +45,31 @@ title = "Chats with James Podcast"
 link = "https://jamesmunns.com/podcast/"
 
 [[episodes]]
+title = "014 - Steve Klabnik"
+url = "https://jamesmunns.com/podcast/014-steve/"
+description = """
+This episode is coming from the archives, originally recorded in May 2022 - \
+James talks with Steve Klabnik from Oxide Computer about knowledge transfer \
+within the Rust community, how learning-by-doing and reading datasheets help \
+you develop, and how limits and regulations are put in place across many \
+different fields.
+"""
+subtitle = "James chats with Steve Klabnik"
+files = [
+    "2023-09-29-steve-klabnik.mp3",
+    "2023-09-29-steve-klabnik.m4a",
+    "2023-09-29-steve-klabnik.flac",
+]
+duration = "01:34:39"
+publish-date = "Fri, 29 Sep 2023 20:00:00 GMT"
+keywords = [
+    "programming",
+    "technology",
+    "Rust",
+    "embedded",
+]
+
+[[episodes]]
 title = "013 - Ryan Summers"
 url = "https://jamesmunns.com/podcast/013-ryan/"
 description = """
