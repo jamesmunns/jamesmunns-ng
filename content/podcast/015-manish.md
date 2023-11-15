@@ -61,7 +61,7 @@ Another episode is coming from the archives, originally recorded in May 2022 wit
     - [yoke](https://crates.io/crates/yoke)
     - [Copy-on-write (cow)](https://en.wikipedia.org/wiki/Copy-on-write)
     - [type erasure](https://en.wikipedia.org/wiki/Type_erasure)
-    - [`'``static`](https://doc.rust-lang.org/rust-by-example/scope/lifetime/static_lifetime.html)
+    - [`'static`](https://doc.rust-lang.org/rust-by-example/scope/lifetime/static_lifetime.html)
     - `for<'a>` or “For tick-a”: [Higher-Rank Trait Bounds (HRTBs)](https://doc.rust-lang.org/nomicon/hrtb.html)
     - [GATs](https://rust-lang.github.io/generic-associated-types-initiative/index.html)
     - Eduard-Mihai Burtescu : [eddyb](https://github.com/eddyb) and Jack Huey : [jackh](https://github.com/jackh726/) and [Oli Scherer](https://github.com/oli-obk)
