@@ -4,6 +4,7 @@ date = 2023-07-17T20:00:00+02:00
 draft = false
 in_search_index = true
 template = "podcast_post.html"
+aliases = ["podcast/012-JT"]
 +++
 
 James has been working on [mnemOS](https://mnemos.James.com/), a hobby-grade operating system written in Rust,
