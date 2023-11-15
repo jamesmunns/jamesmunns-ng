@@ -45,7 +45,7 @@ languages, what makes designing programs fun, strategies for defining goals, and
 ## Show Notes
 
 - 0:01:00 Growing a programming language around an operating system
-    - [Lang Jam](https://github.com/langjam/langjam), [Forth](https://forth-standard.org/) or[here](https://en.wikipedia.org/wiki/Forth_(programming_language))
+    - [Lang Jam](https://github.com/langjam/langjam), [Forth](https://forth-standard.org/) or [on Wikipedia](https://en.wikipedia.org/wiki/Forth_(programming_language))
 - 0:01:15 Sophia's contact + Intro
     - [Sophia June Turner's Blog](https://www.jntrnr.com/), [GitHub](https://github.com/jntrnr)
     - [Rust Core Team Alumni](https://www.rust-lang.org/governance/teams/alumni)
