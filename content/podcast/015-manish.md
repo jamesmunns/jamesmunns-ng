@@ -18,31 +18,31 @@ Another episode is coming from the archives, originally recorded in May 2022 wit
 
 <audio
     controls
-    src="https://delivery.jamescdn.com/2023-11-manish-goregaokar.flac">
+    src="https://delivery.jamescdn.com/2023-11-15-manish-goregaokar.flac">
         Your browser does not support embedding FLAC.
 </audio>
 
-[Download as FLAC](https://delivery.jamescdn.com/2023-11-manish-goregaokar.flac)
+[Download as FLAC](https://delivery.jamescdn.com/2023-11-15-manish-goregaokar.flac)
 
 ### M4A
 
 <audio
     controls
-    src="https://delivery.jamescdn.com/2023-11-manish-goregaokar.m4a">
+    src="https://delivery.jamescdn.com/2023-11-15-manish-goregaokar.m4a">
         Your browser does not support embedding M4A.
 </audio>
 
-[Download as M4A](https://delivery.jamescdn.com/2023-11-manish-goregaokar.m4a)
+[Download as M4A](https://delivery.jamescdn.com/2023-11-15-manish-goregaokar.m4a)
 
 ### MP3
 
 <audio
     controls
-    src="https://delivery.jamescdn.com/2023-11-manish-goregaokar.mp3">
+    src="https://delivery.jamescdn.com/2023-11-15-manish-goregaokar.mp3">
         Your browser does not support embedding MP3.
 </audio>
 
-[Download as MP3](https://delivery.jamescdn.com/2023-11-manish-goregaokar.mp3)
+[Download as MP3](https://delivery.jamescdn.com/2023-11-15-manish-goregaokar.mp3)
 
 ## Show Notes
 
