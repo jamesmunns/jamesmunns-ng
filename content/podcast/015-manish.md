@@ -1,6 +1,6 @@
 +++
 title = "015 - Manish Goregaokar"
-date = 2023-11-15T20:00:00+02:00
+date = 2023-11-15T11:00:00+02:00
 draft = false
 in_search_index = true
 template = "podcast_post.html"

@@ -44,6 +44,32 @@ url = "https://delivery.jamescdn.com/logo2.png"
 title = "Chats with James Podcast"
 link = "https://jamesmunns.com/podcast/"
 
+
+[[episodes]]
+title = "015 - Manish Goregaokar"
+url = "https://jamesmunns.com/podcast/015-manish/"
+description = """
+Another episode is coming from the archives, originally recorded in May 2022 \
+with Manish Goregaokar as the guest- James and Manish touch on many topics, \
+including: internationalization of languages, zero-copy deserialization in \
+Rust, speedrunning video games and Vaccinate CA.
+"""
+subtitle = "James chats with Manish Goregaokar"
+files = [
+    "2023-11-15-manish-goregaokar.mp3",
+    "2023-11-15-manish-goregaokar.m4a",
+    "2023-11-15-manish-goregaokar.flac",
+]
+duration = "01:05:48"
+publish-date = "Wed, 15 Nov 2023 11:00:00 GMT"
+keywords = [
+    "programming",
+    "technology",
+    "Rust",
+    "embedded",
+]
+
+
 [[episodes]]
 title = "014 - Steve Klabnik"
 url = "https://jamesmunns.com/podcast/014-steve/"
