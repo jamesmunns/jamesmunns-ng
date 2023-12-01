@@ -47,7 +47,9 @@ link = "https://jamesmunns.com/podcast/"
 title = "016 - Scott Mabin"
 url = "https://jamesmunns.com/podcast/016-scott/"
 description = """
-James talks with Scott Mabin about how he joined the Espressif team and got involved in embedded Rust, the working culture in chip manufacturing companies and preferences about designing and building mechanical keyboards.
+James talks with Scott Mabin about how he joined the Espressif team and got \
+involved in embedded Rust, the working culture in chip manufacturing companies \
+and preferences about designing and building mechanical keyboards.
 """
 subtitle = "James chats with Scott Mabin"
 files = [
@@ -56,7 +58,7 @@ files = [
     "2023-12-01-scott-mabin.flac",
 ]
 duration = "00:52:56"
-publish-date = "Fri, 1 Dec 2023 20:00:00 GMT"
+publish-date = "Fri, 1 Dec 2023 12:00:00 GMT"
 keywords = [
     "programming",
     "technology",
