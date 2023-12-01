@@ -11,7 +11,6 @@ Embedded Systems, the Rust Programming Language, and \
 a variety of other technical topics are the most commonly \
 discussed items.
 
-New episodes are released every Tuesday.
 """
 subtitle = "James Munns talks to guests about things they are passionate about"
 website = "https://jamesmunns.com/podcast/"
@@ -44,6 +43,26 @@ url = "https://delivery.jamescdn.com/logo2.png"
 title = "Chats with James Podcast"
 link = "https://jamesmunns.com/podcast/"
 
+[[episodes]]
+title = "016 - Scott Mabin"
+url = "https://jamesmunns.com/podcast/016-scott/"
+description = """
+James talks with Scott Mabin about how he joined the Espressif team and got involved in embedded Rust, the working culture in chip manufacturing companies and preferences about designing and building mechanical keyboards.
+"""
+subtitle = "James chats with Scott Mabin"
+files = [
+    "2023-12-01-scott-mabin.mp3",
+    "2023-12-01-scott-mabin.m4a",
+    "2023-12-01-scott-mabin.flac",
+]
+duration = "00:52:56"
+publish-date = "Fri, 1 Dec 2023 20:00:00 GMT"
+keywords = [
+    "programming",
+    "technology",
+    "Rust",
+    "embedded",
+]
 
 [[episodes]]
 title = "015 - Manish Goregaokar"
