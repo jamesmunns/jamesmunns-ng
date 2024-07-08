@@ -92,10 +92,10 @@ For more episodes, show notes and the transcript, visit [jamesmunns.com/podcast]
 - [Mnemos](https://mnemos.dev/mnemosprojectoverview/), James' hobby grade OS
 - [QEMU](https://www.qemu.org/)
 - [Commodore 64](https://en.wikipedia.org/wiki/Commodore_64)
-- [Neotron 32](https://neotron-compute.github.io/Neotron-Book/neotron_32.html), [Hammond instrument case](https://www.hammfg.com/electronics/small-case/general-purpose/1458)
+- [Neotron 32](https://neotron-compute.github.io/Neotron-Book/neotron_32.html), [Hammond instrument case](https://www.hammfg.com/electronics/small-case/plastic/1593al)
 - [JLC](https://jlcpcb.com/), [KiCad](https://www.kicad.org/), [FreeCAD](https://www.freecad.org/), [Altium](https://www.altium.com/), [Blender](https://www.blender.org/), [TI](https://www.ti.com/) Texas Instruments, [DigiKey](https://www.digikey.com/), [Elecrow](https://www.elecrow.com/), [PCBWay](https://www.pcbway.com/), [Farnell](https://www.farnell.com/)
 - [PLM](https://de.wikipedia.org/wiki/Product-Lifecycle-Management), product-lifecycle-management
-- [Rust Foundation](https://foundation.rust-lang.org/) and Jonathan's Grant Proposal project ?
+- [Rust Foundation](https://foundation.rust-lang.org/) and Jonathan's [Grant Proposal Announcement](https://foundation.rust-lang.org/news/2022-06-14-community-grants-program-awards-announcement/)
 - [Politehnica University of Bucharest](https://upb.ro/en/), [crates.io](https://crates.io/), [Embassy](https://embassy.dev/)
 - [MIT License](https://en.wikipedia.org/wiki/MIT_License)
 - [Postcard](https://postcard.jamesmunns.com/)
@@ -521,9 +521,9 @@ It ended up being about as big as we wanted, which was a little over 100 people 
 
 **Jonathan:** So yeah, well let me see if I can remember a potted history. The first was RustFest Paris. Where it was basically a bunch of resistors hanging off a dev board. Then there was RustBelt Rust 2018, in Ann Arbor, and that was on a Veroboard so I, you know, upgraded a bit. And then there was RustConf 2019, the last one before the thing happened. And there, I think I had PCBs. And then it was- I think it was Oxidize 2019. I was talking to some people and were like, &quot;This project has run its course.&quot; It was a demo built on top of a demo built on top of a demo. And none of it was really any good. And it kind of... It did a thing, but it wasn't something I was really excited about going back to.
 
-And that was the point I thought, I'm going to throw this all in the bin and start again. Which was then the name of my 2023 EuroRust talk where I kind of disappeared for four years and switched processes and re-architected everything and the thing happened and I was mayor and I've changed jobs and then yeah, kind of came back and went, ta da, look, I made a thing. I spent ages on it. Um, I don't know why, it's kind of weird. So yeah, kicked off again with EuroRust. It was on display at RustNL. I didn't have a talk. Oh, I'd previously given talks about it at ACCU and NDC TechTown. That was before Eurorust. Yeah, it was probably 2022, I think. I forget. Time's going by. I'm getting old.
+And that was the point I thought, I'm going to throw this all in the bin and start again. Which was then the name of my 2023 EuroRust talk where I kind of disappeared for four years and switched processors and re-architected everything and the thing happened and I was mayor and I've changed jobs and then yeah, kind of came back and went, ta da, look, I made a thing. I spent ages on it. Um, I don't know why, it's kind of weird. So yeah, kicked off again with EuroRust. It was on display at RustNL. I didn't have a talk. Oh, I'd previously given talks about it at ACCU and NDC TechTown. That was before Eurorust. Yeah, it was probably 2022, I think. I forget. Time's going by. I'm getting old.
 
-And then, yeah, here we are, middle of 2024. Not talking about it. It's on display at Oxidize. Yeah, and people come along and they look at it and they're like, &quot;You brought a computer I don't recognize.&quot; And then you explain, &quot;Ah, it's not just a computer, it's bare metal Rust.&quot; And you ask them questions like, &quot;What is an embedded system?&quot; Alright, I'm going to ask you the question, we're going to flip rolls for a minute. James, what is an embedded system?
+And then, yeah, here we are, middle of 2024. Not talking about it. It's on display at Oxidize. Yeah, and people come along and they look at it and they're like, &quot;You brought a computer I don't recognize.&quot; And then you explain, &quot;Ah, it's not just a computer, it's bare metal Rust.&quot; And you ask them questions like, &quot;What is an embedded system?&quot; Alright, I'm going to ask you the question, we're going to flip roles for a minute. James, what is an embedded system?
 
 **James:** It's any computer you don't necessarily sit in front of. I haven't come up with anything more concise with that. My RustNL talk, I always end up having to put in two or three slides of what do I mean by embedded systems, and I think my favorite image is I found a stock image of someone holding a key fob in front of a car, and I went, &quot;An embedded system could either be the key fob or the car, or both.&quot;
 
@@ -575,7 +575,7 @@ And then you do like A level physics. And they're like, &quot;Yeah, no, it's not
 
 **James:** Was it &quot;All models are wrong, but some models are useful&quot;?
 
-And I think that's exactly the case. So then, more concretely... the Neotron is a system where you've built a motherboard shaped PCB, with expansible card slots, with a socket for a CPU module, and many of the niceties that you'd expect. PS2 ports, there's USB for power, but it looks more like a computer than many other hobbyist systems- my own included- end up looking. So what was it about making something that looked and felt like a computer that people were used to that was more motivating than running this in QEMU or on a virtual machine or on existing dev boards?
+And I think that's exactly the case. So then, more concretely... the Neotron is a system where you've built a motherboard shaped PCB, with expansion card slots, with a socket for a CPU module, and many of the niceties that you'd expect. PS2 ports, there's USB for power, but it looks more like a computer than many other hobbyist systems- my own included- end up looking. So what was it about making something that looked and felt like a computer that people were used to that was more motivating than running this in QEMU or on a virtual machine or on existing dev boards?
 
 **Jonathan:** There's two kind of aspects to that. The first is real world things are just more tangible. Ever since I first put wheels on my Commodore 64 in 1995 and turned it into a line following robot. There's just something very tangible about it. I wrote this and then a physical real world thing happened.
 
@@ -613,13 +613,13 @@ But these days there's great tools available at basically zero cost like KiCad a
 
 And it's how I learned electronics. I watched videos on YouTube. I read online guides. I used KiCad because it's free. And I was able to make, you know, a pretty good quality product. I know people doing professional great stuff. And that's then kind of interesting for the people who are selling the pro tools, because, you know, the Altiums of the world, it's still a piece of software.
 
-**James:** It does do a things you do with KiCad.
+**James:** It does do things you can't do with KiCad.
 
 **Jonathan:** Oh, it definitely does more than KiCad. Yeah. But it's still just software, and it's very expensive. And KiCad's not gonna take over anytime soon. Linux flattened the Unix market.
 
 **James:** Even closer to home, the one that I can think of in between Linux and KiCad is Blender. Blender used to be sort of the weird oddball open source option and everyone was doing design on SGX workstations with bespoke tools. Over the years, Blender just kept getting incrementally better. To the point where I'm sure someone will disagree with me and we go, &quot;We don't use Blender at work.&quot; But there are still a lot of professionals using Blender full time. And like you said, if you're not doing crazy RF stuff or impedance mismatches or dealing with an existing giant process at your company.
 
-**Jonathan:** And if you can deal with the absence of a PLM, a product life cycle manager, because KiCad is kind of not great at managing the fact that my transistors got out of stock. And now I need to go and find a different one that's compatible, that kind of bomb management. It can't do that at all.
+**Jonathan:** And if you can deal with the absence of a PLM, a product life cycle manager, because KiCad is kind of not great at managing the fact that my transistors got out of stock. And now I need to go and find a different one that's compatible, that kind of BoM management. It can't do that at all.
 
 **James:** Or I'd like to check the warehouse stock of my transistor in my tool before I spin it because then I'll know whether I need to wait six weeks for the parts to arrive.
 
@@ -659,7 +659,7 @@ And then they will sell them on their website and send me the profit. With the a
 
 And I'm only just starting to get to projects where I've become okay with putting it down for six months and coming back around, but how does having that order of magnitude more people change the good and the bad of a project like that?
 
-**Jonathan:** Yeah, that's interesting. I kind of ran into that earlier because I published one of very few SD card libraries written in Rust to a FAT32 file system and an implementation of the SD card protocol as executed over SPI. And there's mine, there's an async fork of mine. We get into long discussions about whether mine should be async or not. Currently, it can't be both. So I'm sticking with the way mine's designed. And I think there's a separate one that was FAT32RS, developed completely independently.
+**Jonathan:** Yeah, that's interesting. I kind of ran into that earlier because I published one of very few SD card libraries written in Rust to a FAT32 file system and an implementation of the SD card protocol as executed over SPI. And there's mine, there's an async fork of mine. We get into long discussions about whether mine should be async or not. Currently, it can't be both. So I'm sticking with the way mine's designed. And I think there's a separate one that was fat32-rs, developed completely independently.
 
 But there's not many of them. So whenever anyone wants an SD card library, they go to crates.io and they type the stuff in and they find mine. I was in University Politehnica Bucharest this week, judging some student projects. The students there, I think they were second years, they're learning embedded for the first time, and they do it in Rust.
 
@@ -675,7 +675,7 @@ Like, &quot;Your API was really hard to use.&quot;
 
 Like, &quot;I know... I didn't really intend for other people to use my driver. I wrote it for my dumb retro computer and I just published it in case it was useful.&quot;
 
-So, you know, that's the latest instance. There have been plenty of other people turn up in the issue tracker for that and go, &quot; I was using your library to log sensor data on this remote thing I made. And there seems to be an issue, you know, in flushing rights or occasionally I get discorruption...&quot;
+So, you know, that's the latest instance. There have been plenty of other people turn up in the issue tracker for that and go, &quot; I was using your library to log sensor data on this remote thing I made. And there seems to be an issue, you know, in flushing rights or occasionally I get disk corruption...&quot;
 
 And I'm like, &quot;Oh no! Don't! Don't actually save data you care about!&quot; This-
 
