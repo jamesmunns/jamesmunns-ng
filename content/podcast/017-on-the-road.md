@@ -1,6 +1,6 @@
 +++
 title = "017 - On the Road: RustNL & Oxidize"
-date = 2024-07-10T11:00:00+02:00
+date = 2024-07-10T10:00:00+02:00
 draft = false
 in_search_index = true
 template = "podcast_post.html"
@@ -22,31 +22,31 @@ For more episodes, show notes and the transcript, visit [jamesmunns.com/podcast]
 
 <audio
     controls
-    src="https://delivery.jamescdn.com/2024-07-08_on-the-road.flac">
+    src="https://delivery.jamescdn.com/2024-07-10_on-the-road.flac">
         Your browser does not support embedding FLAC.
 </audio>
 
-[Download as FLAC](https://delivery.jamescdn.com/2024-07-08_on-the-road.flac)
+[Download as FLAC](https://delivery.jamescdn.com/2024-07-10_on-the-road.flac)
 
 ### M4A
 
 <audio
     controls
-    src="https://delivery.jamescdn.com/2024-07-08_on-the-road.m4a">
+    src="https://delivery.jamescdn.com/2024-07-10_on-the-road.m4a">
         Your browser does not support embedding M4A.
 </audio>
 
-[Download as M4A](https://delivery.jamescdn.com/2024-07-08_on-the-road.m4a)
+[Download as M4A](https://delivery.jamescdn.com/2024-07-10_on-the-road.m4a)
 
 ### MP3
 
 <audio
     controls
-    src="https://delivery.jamescdn.com/2024-07-08_on-the-road.mp3">
+    src="https://delivery.jamescdn.com/2024-07-10_on-the-road.mp3">
         Your browser does not support embedding MP3.
 </audio>
 
-[Download as MP3](https://delivery.jamescdn.com/2024-07-08_on-the-road.mp3)
+[Download as MP3](https://delivery.jamescdn.com/2024-07-10_on-the-road.mp3)
 
 ## Show Notes
 

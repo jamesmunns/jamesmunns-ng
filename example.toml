@@ -43,6 +43,36 @@ title = "Chats with James Podcast"
 link = "https://jamesmunns.com/podcast/"
 
 [[episodes]]
+title = "017 - On the Road: RustNL & Oxidize"
+url = "https://jamesmunns.com/podcast/017-on-the-road/"
+description = """
+The 'On the Road' episode has two parts, covering different Rust conferences \
+in May 2024. The first section is from RustNL in Delft, the Netherlands, where \
+James interviews Laura and Jonathan, some of the organizers of the event, on \
+their history with Rust and the struggles and successes of putting on these \
+conferences.
+
+The second section of this episode comes from the Oxidize Conference 2024, \
+held in Berlin Germany - here James interviews Jonathan Pallant about the \
+nostalgia of classic computers, the theory of embedded systems and the up \
+and down aspects of building computers for fun.
+"""
+subtitle = "James chats with folks at conferences"
+files = [
+    "2024-07-10_on-the-road.mp3",
+    "2024-07-10_on-the-road.m4a",
+    "2024-07-10_on-the-road.flac",
+]
+duration = "00:48:18"
+publish-date = "Wed, 10 Jul 2024 08:00:00 GMT"
+keywords = [
+    "programming",
+    "technology",
+    "Rust",
+    "embedded",
+]
+
+[[episodes]]
 title = "016 - Scott Mabin"
 url = "https://jamesmunns.com/podcast/016-scott/"
 description = """
