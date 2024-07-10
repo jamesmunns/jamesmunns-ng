@@ -1,6 +1,6 @@
 +++
 title = "017 - On the Road: RustNL & Oxidize"
-date = 2024-07-08T11:00:00+02:00
+date = 2024-07-10T11:00:00+02:00
 draft = false
 in_search_index = true
 template = "podcast_post.html"
@@ -58,14 +58,13 @@ For more episodes, show notes and the transcript, visit [jamesmunns.com/podcast]
     - James' presentation [Postcard: An Unreasonably Effective Tool for Machine to Machine Communication](https://www.youtube.com/watch?v=HtBFvTH5ZKE&list=PL8Q1w7Ff68DBZZbJt3ie5MUoJV5v2HeA7&index=8)
     - Workshop: Using `postcard` to talk to your Microcontroller [Workshop](https://2024.rustnl.org/workshops/)
     - OV Twin Trainer Board [Firmware](https://github.com/OneVariable/ov-twin-fw) and [Workshop Book](https://onevariable.com/rustnl-2024-workshop/welcome.html)
-- [Delft](https://en.wikipedia.org/wiki/Delft), Amsterdam Rust Meetup ?, [RustNL 2023](https://2023.rustnl.org/)
-- [Tweede golf](https://tweedegolf.nl/en), [Erik](https://tweedegolf.nl/en/about/6/erik), [EuroRust 2023](https://eurorust.eu/2023/)
-- [Mara Bos](https://marabos.nl/)
+- [Delft](https://en.wikipedia.org/wiki/Delft), [RustNL 2023](https://2023.rustnl.org/)
+- [Tweede golf](https://tweedegolf.nl/en), [Erik](https://tweedegolf.nl/en/about/6/erik), [EuroRust 2023](https://eurorust.eu/2023/), [Mara Bos](https://marabos.nl/)
 - [Embedded World](https://www.embedded-world.de/en), [Oxidize](https://oxidizeconf.com/) in Berlin, [Rustlab](https://rustlab.it/) in Florence, [RustNation UK](https://www.rustnationuk.com/)
-- [Henk Oordt](https://github.com/hdoordt/), presentation at RustNL 2024 ["Oxidizing Education](https://www.youtube.com/watch?v=KwZM0lSTvyk)
+- [Henk Oordt](https://github.com/hdoordt/), presentation at RustNL 2024 ["Oxidizing Education"](https://www.youtube.com/watch?v=KwZM0lSTvyk)
 - [Rust Embedded Working Group](https://blog.rust-embedded.org/)
     - [on Matrix](https://matrix.to/#/#rust-embedded:matrix.org) and [GitHub](https://github.com/rust-embedded/wg?tab=readme-ov-file)
-- [Stabilizer](https://github.com/quartiq/stabilizer), Firmware and software for the Sinara Stabilizer module with high speed, low latency ADC/DAC data processing and powerful DSP algorithms in between, from [Quartiq](https://github.com/quartiq), who also work on [thermostat-mqtt](https://github.com/quartiq/thermostat-mqtt), Thermostat temperature control software with mqtt networking.
+- [Stabilizer](https://github.com/quartiq/stabilizer), from [Quartiq](https://github.com/quartiq), who also work on [thermostat-mqtt](https://github.com/quartiq/thermostat-mqtt)
     - [Ryan Summers](https://github.com/ryan-summers) from Stabilizer
 - [FPGA](https://en.wikipedia.org/wiki/Field-programmable_gate_array), field-programmable gate array
 
@@ -713,7 +712,7 @@ And I've thought about trying to sit down and write a- I called it the Mnemos, t
 
 So thank you very much for taking some time to chat with me!
 
-**Jonathan:** Thank YOU!. Yeah. Really appreciate it. See you around.
+**Jonathan:** Thank YOU! Yeah. Really appreciate it. See you around.
 
 </details>
 
